@@ -6,7 +6,7 @@ import * as jwt from 'jsonwebtoken';
 import app from '../../config/server/server';
 import authConstants from './constants';
 
-const AuthService: IAuthService = {
+const authService: IAuthService = {
 
     async defineIdType(id: string): Promise<string> {
         if (id.includes('@')) { return authConstants.id_type.email; }
@@ -37,18 +37,21 @@ const AuthService: IAuthService = {
         }
     },
 
-    async logout(type_logout: string, token: string): Promise < string > {
-        if (type_logout === 'false') {
-            const user: any = await UserModel.findOne({ access_token: token });
-            if (user) {
-                user.access_token = ' ';
-                await UserModel.updateOne({ access_token: token }, { $set: user }).exec();
+    async logout(typeLogout: string, token: string): Promise < string > {
+        try {
+            if (typeLogout === 'false') {
+                const user: any = await UserModel.findOne({ access_token: token });
+                if (user) {
+                    await UserModel.updateOne({ access_token: token }, { $set: { access_token: ' ' } }).exec();
 
-                return user;
+                    return user;
+                }
             }
-        }
-        if (type_logout === 'true') {
-            await UserModel.updateMany({}, { $set: { access_token: ' ' } }).exec();
+            if (typeLogout === 'true') {
+                await UserModel.updateMany({}, { $set: { access_token: ' ' } }).exec();
+            }
+        } catch (error) {
+            throw new Error(error);
         }
     },
 
@@ -61,4 +64,4 @@ const AuthService: IAuthService = {
     }
 };
 
-export default AuthService;
+export default authService;

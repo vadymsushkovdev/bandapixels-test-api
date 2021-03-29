@@ -2,9 +2,9 @@ import * as Joi from 'joi';
 import { IUserService } from './interfaces/interface';
 import UserModel, { IUserModel } from './models/model';
 import UserValidation from './validations/validation';
-import AuthService from '../Auth/service';
+import authService from '../Auth/service';
 
-const UserService: IUserService = {
+const userService: IUserService = {
 
     async usersInfo(token: string): Promise < IUserModel > {
         try {
@@ -27,7 +27,7 @@ const UserService: IUserService = {
             const user: IUserModel = new UserModel({
                 id: body.id,
                 id_type: body.id_type,
-                access_token: await AuthService.getTokens(body.id),
+                access_token: await authService.getTokens(body.id),
                 password: body.password
             });
             const query: IUserModel = await UserModel.findOne({ id: body.id });
@@ -43,4 +43,4 @@ const UserService: IUserService = {
     }
 };
 
-export default UserService;
+export default userService;

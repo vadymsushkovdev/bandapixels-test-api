@@ -1,5 +1,5 @@
 import * as bcrypt from 'bcrypt';
-import * as connections from '../../../config/connection/connection';
+import connection from '../../../config/connection/connection';
 import { Document, Schema } from 'mongoose';
 import { NextFunction } from 'express';
 
@@ -43,4 +43,4 @@ const UserSchema: Schema = new Schema({
     }
 });
 
-export default connections.db.model < IUserModel > ('UserModel', UserSchema);
+export default connection.model < IUserModel > ('UserModel', UserSchema);
