@@ -29,12 +29,6 @@ export function sendHttpErrorModule(req: Request, res: any, next: NextFunction):
     next();
 }
 
-/**
- *
- * @param error Error
- * @returns {string} HTML response or empty string
- * @description generates HTML for response
- */
 const generateHTML: Function = (error: HttpError): string => {
     if (error) {
         return '<div style=\'text-align: center;\'>' +
