@@ -6,9 +6,6 @@ const connectOptions: IConnectOptions = { useNewUrlParser: true, useUnifiedTopol
 const MONGO_URI: string = `${config.database.MONGODB_URI}${config.database.MONGODB_DB_MAIN}`;
 const db: mongoose.Connection = mongoose.createConnection(MONGO_URI, connectOptions);
 
-
-
-
 export { db };
 
 db.on('connecting', () => { console.log('\x1b[32m', 'MongoDB :: connecting'); });
