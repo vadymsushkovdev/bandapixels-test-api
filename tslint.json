@@ -19,7 +19,7 @@
         "ter-newline-after-var": [true, "always"],
         "no-unused-variable": true,
         "align": [true],
-        "no-parameter-reassignment": true,
+        "no-parameter-reassignment": false,
         "typedef": [
             true,
             "call-signature",

@@ -8,7 +8,7 @@ import authConstants from './constants';
 
 const authService: IAuthService = {
 
-    async defineIdType(id: string): Promise<string> {
+    async defineIdType(id: string): Promise< string > {
         if (id.includes('@')) { return authConstants.id_type.email; }
         if (id.charAt(0) === '+') { throw new Error('Add an id without \'+\''); }
         if (!isNaN(Number(id))) { return authConstants.id_type.phone; }

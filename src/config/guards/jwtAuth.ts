@@ -4,7 +4,7 @@ import * as http from 'http';
 import IRequestWithUser from './interfaces/interface';
 import UserModel, { IUserModel } from '../../components/User/models/model';
 
-export async function isAuthenticated(req: IRequestWithUser, res: Response, next: NextFunction): Promise<void> {
+export async function isAuthenticated(req: IRequestWithUser, res: Response, next: NextFunction): Promise< void > {
     const bearerHeader: string = req.headers['authorization'];
 
     if (!bearerHeader) { return next(new HttpError(400, 'No token provided')); }

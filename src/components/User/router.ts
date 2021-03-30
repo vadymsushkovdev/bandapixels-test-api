@@ -4,6 +4,6 @@ import * as jwtConfig from '../../config/guards/jwtAuth';
 
 const router: Router = Router();
 
-router.get('/latency', jwtConfig.isAuthenticated, UserComponent.info);
+router.get('/info', jwtConfig.isAuthenticated, UserComponent.info);
 
 export default router;

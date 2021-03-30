@@ -1,13 +1,13 @@
 import * as express from 'express';
 import * as http from 'http';
 import AuthRouter from './Auth/router';
-import PingerRouter from './Pinger/router';
+import LatencyRouter from './Latency/router';
 import UserRouter from './User/router';
 
 export function init(app: express.Application): void {
     const router: express.Router = express.Router();
 
-    app.use('', PingerRouter);
+    app.use('', LatencyRouter);
     app.use('', UserRouter);
     app.use('', AuthRouter);
     app.use((req, res, next) => {
