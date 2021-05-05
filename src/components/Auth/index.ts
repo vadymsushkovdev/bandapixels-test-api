@@ -1,7 +1,7 @@
 import authService from './service';
-import { IUserModel } from '../User/models/model';
+import { IUserModel } from '@components/User/models/model';
 import { Request, Response } from 'express';
-import userService from '../User/service';
+import userService from '@components/User/service';
 
 export async function signup(req: Request, res: Response): Promise < void > {
     const user: IUserModel = req.body;
@@ -21,7 +21,8 @@ export async function login(req: Request, res: Response): Promise < void > {
 
 export async function logout(req: Request, res: Response): Promise < void > {
     if (!req.query.all) { res.json({ status: 401, message: '\'All\' parameter is missed' }); }
-    const bearerHeader: string = req.headers['authorization'];
+
+    const bearerHeader: string = req.headers['authorization'] || '';
     const bearer: string[] = bearerHeader.split(' ');
 
     await authService.logout(String(req.query.all), bearer[1]);

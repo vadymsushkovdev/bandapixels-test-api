@@ -1,9 +1,10 @@
 import { Router } from 'express';
-import * as UserComponent from './.';
-import * as jwtConfig from '../../config/guards/jwtAuth';
+import { info } from './index';
+import jwtAuth from '@guards/jwtAuth';
 
 const router: Router = Router();
 
-router.get('/info', jwtConfig.isAuthenticated, UserComponent.info);
+// @ts-ignore
+router.get('/info', jwtAuth, info);
 
 export default router;

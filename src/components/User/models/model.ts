@@ -1,5 +1,5 @@
-import * as bcrypt from 'bcrypt';
-import connection from '../../../config/connection/connection';
+import bcrypt from 'bcrypt';
+import connection from '@config/connection/connection';
 import { Document, Schema } from 'mongoose';
 import { NextFunction } from 'express';
 
@@ -9,6 +9,7 @@ export interface IUserModel extends Document {
     password: string;
     access_token: string;
 }
+
 
 const UserSchema: Schema = new Schema({
     id: {
@@ -28,6 +29,7 @@ const UserSchema: Schema = new Schema({
 }, {
     collection: 'usermodel',
     versionKey: false
+    // @ts-ignore
 }).pre('save', async function (next: NextFunction): Promise < void > {
     const user: any = this;
 

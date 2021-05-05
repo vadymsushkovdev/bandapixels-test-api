@@ -1,10 +1,10 @@
 import { Router } from 'express';
-import * as CurrencyComponent  from './.';
-import * as jwtConfig from '../../config/guards/jwtAuth';
+import { latencyGoogle } from './index';
+import jwtAuth from '@guards/jwtAuth';
 import exceptionsLatencyFilter from './validations/filter';
 
 const router: Router = Router();
-
-router.get('/latency', jwtConfig.isAuthenticated, exceptionsLatencyFilter(CurrencyComponent.latencyGoogle));
+// @ts-ignore
+router.get('/latency', jwtAuth, exceptionsLatencyFilter(latencyGoogle));
 
 export default router;

@@ -1,17 +1,22 @@
 {
-    "compilerOptions": {
-        "outDir": "./build/",
-        "module": "commonjs",
-        "noImplicitAny": true,
-        "target": "es6",
-        "sourceMap": true,
-        "plugins": [
-            {
-                "name": "tslint-language-service"
-            }
-        ],
-      "allowSyntheticDefaultImports": true
-    },
-    "include": ["./src/**/*"],
-    "exclude": ["node_modules"]
+  "compilerOptions": {
+    "module": "commonjs",
+    "declaration": true,
+    "removeComments": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "allowSyntheticDefaultImports": true,
+    "target": "es2017",
+    "sourceMap": true,
+    "outDir": "./dist",
+    "baseUrl": "./",
+    "incremental": true,
+    "strict": true,
+    "esModuleInterop": true,
+    "paths": {
+      "@config/*": ["./src/config/*"],
+      "@guards/*": ["./src/guards/*"],
+      "@components/*": ["./src/components/*"]
+    }
+  }
 }

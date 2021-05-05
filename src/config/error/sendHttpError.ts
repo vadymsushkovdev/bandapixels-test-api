@@ -13,9 +13,9 @@ export function sendHttpErrorModule(req: Request, res: any, next: NextFunction):
         if (
             req.xhr ||
             req.is('json') ||
-            (req.is('json') && req.get('Accept')) ||
-            !(req.get('Accept') && req.get('Accept').indexOf('html') !== -1)
-        ) {
+            (req.is('json') && req.get('Accept'))
+        )
+         {
             res.json({
                 status: error.status,
                 name: error.name,

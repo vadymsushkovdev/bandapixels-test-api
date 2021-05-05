@@ -1,9 +1,9 @@
 
 export default interface IDBConfig {
-    port: string | number;
+    port: string | number | undefined;
     database: {
-        MONGODB_URI: string;
-        MONGODB_DB_MAIN: string;
+        MONGODB_URI: string | undefined;
+        MONGODB_DB_MAIN: string | undefined;
     };
-    secret: string;
+    secret: string | undefined;
 }

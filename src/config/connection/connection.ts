@@ -1,5 +1,5 @@
-import * as mongoose from 'mongoose';
-import config from '../env';
+import mongoose from 'mongoose';
+import config from '@config/env';
 import IConnectOptions from './interfaces/interface';
 
 const connectOptions: IConnectOptions = { useNewUrlParser: true, useUnifiedTopology: true };
@@ -8,7 +8,7 @@ const MONGO_URI: string = `${config.database.MONGODB_URI}${config.database.MONGO
 class Connection {
     private readonly _uri: string;
     private readonly _options: IConnectOptions;
-    private _instance: mongoose.Connection;
+    private _instance: mongoose.Connection | null;
 
     constructor(uri: string, options: IConnectOptions) {
         this._uri = uri;

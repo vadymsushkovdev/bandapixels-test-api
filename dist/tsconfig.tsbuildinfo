@@ -1,0 +1,1031 @@
+{
+  "program": {
+    "fileInfos": {
+      "/home/vadym/Project/privat-bank-currency-api-main/node_modules/typescript/lib/lib.es5.d.ts": {
+        "version": "c8665e66018917580e71792b91022bcaf53fb946fab4aaf8dfb0738ed564db88",
+        "signature": "c8665e66018917580e71792b91022bcaf53fb946fab4aaf8dfb0738ed564db88"
+      },
+      "/home/vadym/Project/privat-bank-currency-api-main/node_modules/typescript/lib/lib.es2015.d.ts": {
+        "version": "7994d44005046d1413ea31d046577cdda33b8b2470f30281fd9c8b3c99fe2d96",
+        "signature": "7994d44005046d1413ea31d046577cdda33b8b2470f30281fd9c8b3c99fe2d96"
+      },
+      "/home/vadym/Project/privat-bank-currency-api-main/node_modules/typescript/lib/lib.es2016.d.ts": {
+        "version": "5f217838d25704474d9ef93774f04164889169ca31475fe423a9de6758f058d1",
+        "signature": "5f217838d25704474d9ef93774f04164889169ca31475fe423a9de6758f058d1"
+      },
+      "/home/vadym/Project/privat-bank-currency-api-main/node_modules/typescript/lib/lib.es2017.d.ts": {
+        "version": "459097c7bdd88fc5731367e56591e4f465f2c9de81a35427a7bd473165c34743",
+        "signature": "459097c7bdd88fc5731367e56591e4f465f2c9de81a35427a7bd473165c34743"
+      },
+      "/home/vadym/Project/privat-bank-currency-api-main/node_modules/typescript/lib/lib.dom.d.ts": {
+        "version": "6994c583b66862deca24d7bbf77297d95b9d3da8160dbd9beef6b847cf7c1376",
+        "signature": "6994c583b66862deca24d7bbf77297d95b9d3da8160dbd9beef6b847cf7c1376"
+      },
+      "/home/vadym/Project/privat-bank-currency-api-main/node_modules/typescript/lib/lib.dom.iterable.d.ts": {
+        "version": "4c892766803cef795d73d69aee436dc7a80157163e0cf35e6d0e86917cbd42f3",
+        "signature": "4c892766803cef795d73d69aee436dc7a80157163e0cf35e6d0e86917cbd42f3"
+      },
+      "/home/vadym/Project/privat-bank-currency-api-main/node_modules/typescript/lib/lib.webworker.importscripts.d.ts": {
+        "version": "fe4e59403e34c7ff747abe4ff6abbc7718229556d7c1a5b93473fb53156c913b",
+        "signature": "fe4e59403e34c7ff747abe4ff6abbc7718229556d7c1a5b93473fb53156c913b"
+      },
+      "/home/vadym/Project/privat-bank-currency-api-main/node_modules/typescript/lib/lib.scripthost.d.ts": {
+        "version": "b9faa17292f17d2ad75e34fac77dd63a6403af1dba02d39cd0cbb9ffdf3de8b9",
+        "signature": "b9faa17292f17d2ad75e34fac77dd63a6403af1dba02d39cd0cbb9ffdf3de8b9"
+      },
+      "/home/vadym/Project/privat-bank-currency-api-main/node_modules/typescript/lib/lib.es2015.core.d.ts": {
+        "version": "384f66a3422d80014c51de2682159bb26f1e35854029880ccd5f6d1f00e6a36d",
+        "signature": "384f66a3422d80014c51de2682159bb26f1e35854029880ccd5f6d1f00e6a36d"
+      },
+      "/home/vadym/Project/privat-bank-currency-api-main/node_modules/typescript/lib/lib.es2015.collection.d.ts": {
+        "version": "dd94d8ef48c562389eb58af8df3a3a34d11367f7c818192aa5f16470d469e3f0",
+        "signature": "dd94d8ef48c562389eb58af8df3a3a34d11367f7c818192aa5f16470d469e3f0"
+      },
+      "/home/vadym/Project/privat-bank-currency-api-main/node_modules/typescript/lib/lib.es2015.generator.d.ts": {
+        "version": "828413486bdcaa342558e8e4570b1b287b776cb61b4b70b0214bd10c5d9a94c3",
+        "signature": "828413486bdcaa342558e8e4570b1b287b776cb61b4b70b0214bd10c5d9a94c3"
+      },
+      "/home/vadym/Project/privat-bank-currency-api-main/node_modules/typescript/lib/lib.es2015.iterable.d.ts": {
+        "version": "4d1f39313a169b8599b8817688f504b56ba8204c2ebafd03f66ff77ddb1899a4",
+        "signature": "4d1f39313a169b8599b8817688f504b56ba8204c2ebafd03f66ff77ddb1899a4"
+      },
+      "/home/vadym/Project/privat-bank-currency-api-main/node_modules/typescript/lib/lib.es2015.promise.d.ts": {
+        "version": "7c07d934680d0e33275a44d22fb11a4ff31d46c8c26a8d056828a478753f1efe",
+        "signature": "7c07d934680d0e33275a44d22fb11a4ff31d46c8c26a8d056828a478753f1efe"
+      },
+      "/home/vadym/Project/privat-bank-currency-api-main/node_modules/typescript/lib/lib.es2015.proxy.d.ts": {
+        "version": "5e72f949a89717db444e3bd9433468890068bb21a5638d8ab15a1359e05e54fe",
+        "signature": "5e72f949a89717db444e3bd9433468890068bb21a5638d8ab15a1359e05e54fe"
+      },
+      "/home/vadym/Project/privat-bank-currency-api-main/node_modules/typescript/lib/lib.es2015.reflect.d.ts": {
+        "version": "f5b242136ae9bfb1cc99a5971cccc44e99947ae6b5ef6fd8aa54b5ade553b976",
+        "signature": "f5b242136ae9bfb1cc99a5971cccc44e99947ae6b5ef6fd8aa54b5ade553b976"
+      },
+      "/home/vadym/Project/privat-bank-currency-api-main/node_modules/typescript/lib/lib.es2015.symbol.d.ts": {
+        "version": "9ae2860252d6b5f16e2026d8a2c2069db7b2a3295e98b6031d01337b96437230",
+        "signature": "9ae2860252d6b5f16e2026d8a2c2069db7b2a3295e98b6031d01337b96437230"
+      },
+      "/home/vadym/Project/privat-bank-currency-api-main/node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts": {
+        "version": "3e0a459888f32b42138d5a39f706ff2d55d500ab1031e0988b5568b0f67c2303",
+        "signature": "3e0a459888f32b42138d5a39f706ff2d55d500ab1031e0988b5568b0f67c2303"
+      },
+      "/home/vadym/Project/privat-bank-currency-api-main/node_modules/typescript/lib/lib.es2016.array.include.d.ts": {
+        "version": "3f96f1e570aedbd97bf818c246727151e873125d0512e4ae904330286c721bc0",
+        "signature": "3f96f1e570aedbd97bf818c246727151e873125d0512e4ae904330286c721bc0"
+      },
+      "/home/vadym/Project/privat-bank-currency-api-main/node_modules/typescript/lib/lib.es2017.object.d.ts": {
+        "version": "ff8ad203e83338289b0f5defc1a5b5c253fb7d251b464db497383f915a0df3f4",
+        "signature": "ff8ad203e83338289b0f5defc1a5b5c253fb7d251b464db497383f915a0df3f4"
+      },
+      "/home/vadym/Project/privat-bank-currency-api-main/node_modules/typescript/lib/lib.es2017.sharedmemory.d.ts": {
+        "version": "b8667586a618c5cf64523d4e500ae39e781428abfb28f3de441fc66b56144b6f",
+        "signature": "b8667586a618c5cf64523d4e500ae39e781428abfb28f3de441fc66b56144b6f"
+      },
+      "/home/vadym/Project/privat-bank-currency-api-main/node_modules/typescript/lib/lib.es2017.string.d.ts": {
+        "version": "21df2e0059f14dcb4c3a0e125859f6b6ff01332ee24b0065a741d121250bc71c",
+        "signature": "21df2e0059f14dcb4c3a0e125859f6b6ff01332ee24b0065a741d121250bc71c"
+      },
+      "/home/vadym/Project/privat-bank-currency-api-main/node_modules/typescript/lib/lib.es2017.intl.d.ts": {
+        "version": "c1759cb171c7619af0d2234f2f8fb2a871ee88e956e2ed91bb61778e41f272c6",
+        "signature": "c1759cb171c7619af0d2234f2f8fb2a871ee88e956e2ed91bb61778e41f272c6"
+      },
+      "/home/vadym/Project/privat-bank-currency-api-main/node_modules/typescript/lib/lib.es2017.typedarrays.d.ts": {
+        "version": "28569d59e07d4378cb3d54979c4c60f9f06305c9bb6999ffe6cab758957adc46",
+        "signature": "28569d59e07d4378cb3d54979c4c60f9f06305c9bb6999ffe6cab758957adc46"
+      },
+      "/home/vadym/Project/privat-bank-currency-api-main/node_modules/typescript/lib/lib.es2018.asynciterable.d.ts": {
+        "version": "42102aaeb1bfec213be1e9777466a6d551eeba8567fed18c0cdbca8c35e3c6e4",
+        "signature": "42102aaeb1bfec213be1e9777466a6d551eeba8567fed18c0cdbca8c35e3c6e4"
+      },
+      "/home/vadym/Project/privat-bank-currency-api-main/node_modules/typescript/lib/lib.es2017.full.d.ts": {
+        "version": "873c09f1c309389742d98b7b67419a8e0a5fa6f10ce59fd5149ecd31a2818594",
+        "signature": "873c09f1c309389742d98b7b67419a8e0a5fa6f10ce59fd5149ecd31a2818594"
+      },
+      "/home/vadym/Project/privat-bank-currency-api-main/node_modules/@types/node/inspector.d.ts": {
+        "version": "71f5e4a14f2464935a7a244d614e9cf7fc312441d83188abc6b799ce5d051830",
+        "signature": "71f5e4a14f2464935a7a244d614e9cf7fc312441d83188abc6b799ce5d051830"
+      },
+      "/home/vadym/Project/privat-bank-currency-api-main/node_modules/@types/node/index.d.ts": {
+        "version": "a84838921dae2c38cdc5ecdfad24613fd1154c711c62df5581477ce8cf9113a5",
+        "signature": "a84838921dae2c38cdc5ecdfad24613fd1154c711c62df5581477ce8cf9113a5"
+      },
+      "/home/vadym/Project/privat-bank-currency-api-main/node_modules/@types/range-parser/index.d.ts": {
+        "version": "4e88b833be14c7f384e0dcd57bb30acd799e8e34d212635d693e41a75a71164b",
+        "signature": "4e88b833be14c7f384e0dcd57bb30acd799e8e34d212635d693e41a75a71164b"
+      },
+      "/home/vadym/Project/privat-bank-currency-api-main/node_modules/@types/qs/index.d.ts": {
+        "version": "98437d5a640b67c41534f0de2dcb64c75433dcdff54ff8f8432e613663619a2e",
+        "signature": "98437d5a640b67c41534f0de2dcb64c75433dcdff54ff8f8432e613663619a2e"
+      },
+      "/home/vadym/Project/privat-bank-currency-api-main/node_modules/@types/express-serve-static-core/index.d.ts": {
+        "version": "e41a1ce538d71d5a3389b7fc2e39c15a4972f0d4cb14bf2fe8cda8c361150028",
+        "signature": "e41a1ce538d71d5a3389b7fc2e39c15a4972f0d4cb14bf2fe8cda8c361150028"
+      },
+      "/home/vadym/Project/privat-bank-currency-api-main/node_modules/@types/mime/index.d.ts": {
+        "version": "84e3bbd6f80983d468260fdbfeeb431cc81f7ea98d284d836e4d168e36875e86",
+        "signature": "84e3bbd6f80983d468260fdbfeeb431cc81f7ea98d284d836e4d168e36875e86"
+      },
+      "/home/vadym/Project/privat-bank-currency-api-main/node_modules/@types/serve-static/index.d.ts": {
+        "version": "3b02517f9be71f255eadab9892406055d069167891f1e1ea16c96c4ff1ddda01",
+        "signature": "3b02517f9be71f255eadab9892406055d069167891f1e1ea16c96c4ff1ddda01"
+      },
+      "/home/vadym/Project/privat-bank-currency-api-main/node_modules/@types/body-parser/index.d.ts": {
+        "version": "d49347480b7fd78dbccae358c3a5e4788e73003f60bd8206d70ce0fc69473100",
+        "signature": "d49347480b7fd78dbccae358c3a5e4788e73003f60bd8206d70ce0fc69473100"
+      },
+      "/home/vadym/Project/privat-bank-currency-api-main/node_modules/@types/express/index.d.ts": {
+        "version": "c8af41c4f901ffa94802e7aaf757843ea647ff56f87a4c177019d1eddcfba158",
+        "signature": "c8af41c4f901ffa94802e7aaf757843ea647ff56f87a4c177019d1eddcfba158"
+      },
+      "/home/vadym/Project/privat-bank-currency-api-main/node_modules/@types/joi/index.d.ts": {
+        "version": "3fd0795cae2cca625520531ae0761448818555759a63d24cd2c9ac157b9a6755",
+        "signature": "3fd0795cae2cca625520531ae0761448818555759a63d24cd2c9ac157b9a6755"
+      },
+      "/home/vadym/Project/privat-bank-currency-api-main/node_modules/@types/bson/index.d.ts": {
+        "version": "2d23edce1d4a3b33280970484e17ca87b03e2829d8677ae1501de18269f0498f",
+        "signature": "2d23edce1d4a3b33280970484e17ca87b03e2829d8677ae1501de18269f0498f"
+      },
+      "/home/vadym/Project/privat-bank-currency-api-main/node_modules/@types/mongodb/index.d.ts": {
+        "version": "6ff75ec3cfe71ea4f33c75508e5620eb166fa94571100ee1c35344c18993c216",
+        "signature": "6ff75ec3cfe71ea4f33c75508e5620eb166fa94571100ee1c35344c18993c216"
+      },
+      "/home/vadym/Project/privat-bank-currency-api-main/node_modules/mongoose/index.d.ts": {
+        "version": "6d15d99285b000089f08af3162d0dbd5de5fac37750b5e70169651d6d467fe76",
+        "signature": "6d15d99285b000089f08af3162d0dbd5de5fac37750b5e70169651d6d467fe76"
+      },
+      "/home/vadym/Project/privat-bank-currency-api-main/src/components/validation.ts": {
+        "version": "3b877e4260fac5a72e1952201f6f99de168b7e51091949ab78100f5b6b081f62",
+        "signature": "265d27fe2e659b3624cab569e0cf988cb748b678c8b4dd1a0e9822ed2a20b465"
+      },
+      "/home/vadym/Project/privat-bank-currency-api-main/node_modules/@types/bcrypt/index.d.ts": {
+        "version": "18b9a9702d2fc7d3766b0c8124133c761ad25a9d767925005777eb2c2cd8aeba",
+        "signature": "18b9a9702d2fc7d3766b0c8124133c761ad25a9d767925005777eb2c2cd8aeba"
+      },
+      "/home/vadym/Project/privat-bank-currency-api-main/node_modules/dotenv/types/index.d.ts": {
+        "version": "c9ae0b351a07b52f29a28e869d8c7c8d29743bbb5eeddc7c0b5b2a69a2450528",
+        "signature": "c9ae0b351a07b52f29a28e869d8c7c8d29743bbb5eeddc7c0b5b2a69a2450528"
+      },
+      "/home/vadym/Project/privat-bank-currency-api-main/src/config/env/interfaces/interface.ts": {
+        "version": "55fd6e85641c28a758740eca19601afa951129e2631e17b3899576ec6bd00e66",
+        "signature": "80eeccf02a648bf435d0e8fbf468a2d575f08487d05caea773a14dc244da5e95"
+      },
+      "/home/vadym/Project/privat-bank-currency-api-main/src/config/env/index.ts": {
+        "version": "d1f93b8531532de6c397e5f3d6a2c1c819bbefb52c4099a6aa6b6a13ac95dba6",
+        "signature": "7cff013bb0bbf4070d7a15b8de0eebbe17b22ffa51d9a12e197263ae1a5fcfb5"
+      },
+      "/home/vadym/Project/privat-bank-currency-api-main/src/config/connection/interfaces/interface.ts": {
+        "version": "4d4b992f543a9e6d35955c3685870e736d7809b6ad5780fa08991d614cede3df",
+        "signature": "d91758f6a54e899215b2eff6c2ca894274accdcefd4687f726ad6cee0ccf825d"
+      },
+      "/home/vadym/Project/privat-bank-currency-api-main/src/config/connection/connection.ts": {
+        "version": "19ff95a542aa9c05b59d4dbb89b032bd195814ec97937fe23137fd9a3b0a9763",
+        "signature": "4fe16a2757f436c29b14b98920f0f533ba6ffb6cb4b9c5f5282d50a9bbd2945d"
+      },
+      "/home/vadym/Project/privat-bank-currency-api-main/src/components/User/models/model.ts": {
+        "version": "4b01bc9760a1fea7066a13f51f6f5294da17baa86ec639f0062584127f86a87c",
+        "signature": "f914f5d1ff47fc9d881bae037b518cecb3509f501d4b595bab043b1b746fac12"
+      },
+      "/home/vadym/Project/privat-bank-currency-api-main/src/components/Auth/validations/validation.ts": {
+        "version": "504305854990d00b7e6d6925dd0ae3dc18e92b1b7cb87fbadedef5eded77a10d",
+        "signature": "b1ae8352a8c7a9a02827f9aece29b181c1099ab2a5ef0fa0da1840424c88ae62"
+      },
+      "/home/vadym/Project/privat-bank-currency-api-main/src/components/Auth/interfaces/interface.ts": {
+        "version": "f1d782184f4a59185a67eeb43f171bbe4bac04779c01d032b0de503fdb609fa5",
+        "signature": "0606c95cfb0a0a3b2008395ad52d2d4d3ac5dfddc9b99fc82de9f907aac0a6b3"
+      },
+      "/home/vadym/Project/privat-bank-currency-api-main/node_modules/@types/jsonwebtoken/index.d.ts": {
+        "version": "daef0ff8d0878f91f68abfdb51e82a5df5b5bc9fc665202e0bd45ddefe640fa2",
+        "signature": "daef0ff8d0878f91f68abfdb51e82a5df5b5bc9fc665202e0bd45ddefe640fa2"
+      },
+      "/home/vadym/Project/privat-bank-currency-api-main/node_modules/@types/compression/index.d.ts": {
+        "version": "96540c10532f7cab762185084744738f504244164689dfa11c140008cc321177",
+        "signature": "96540c10532f7cab762185084744738f504244164689dfa11c140008cc321177"
+      },
+      "/home/vadym/Project/privat-bank-currency-api-main/node_modules/@types/cookie-parser/index.d.ts": {
+        "version": "a1df8fab03cc0f18714669348226e0edf320cd0ac6771a8c2b23abe97f1867e2",
+        "signature": "a1df8fab03cc0f18714669348226e0edf320cd0ac6771a8c2b23abe97f1867e2"
+      },
+      "/home/vadym/Project/privat-bank-currency-api-main/node_modules/@types/cors/index.d.ts": {
+        "version": "cfec7dcfe975a012ff392fd708aff3cc069658a5add9623a539c9b90fffea13b",
+        "signature": "cfec7dcfe975a012ff392fd708aff3cc069658a5add9623a539c9b90fffea13b"
+      },
+      "/home/vadym/Project/privat-bank-currency-api-main/node_modules/@types/helmet/index.d.ts": {
+        "version": "795a0958063e8ea522b600a6a1a615bc1f53da814670af36b6470f5c0fd81ef1",
+        "signature": "795a0958063e8ea522b600a6a1a615bc1f53da814670af36b6470f5c0fd81ef1"
+      },
+      "/home/vadym/Project/privat-bank-currency-api-main/src/config/error/index.ts": {
+        "version": "1f22a43b2f38f925bbbde8e25be665c1cd306c9fb71bf4a343e701ab5816d74f",
+        "signature": "110245d9f01a42ffc8f09d56bb84c75da69320c5094d160d7cdcbab3cee47cdd"
+      },
+      "/home/vadym/Project/privat-bank-currency-api-main/src/config/error/sendHttpError.ts": {
+        "version": "8db53a03922e841904b6177a31b6d8333bf1e23ae334068298bf81de900209a5",
+        "signature": "ffbc3eaaac8d8dd514a8a9e94ca41e7e69e626af637def57d305dcd3a5e957bb"
+      },
+      "/home/vadym/Project/privat-bank-currency-api-main/src/config/middleware/interfaces/interface.ts": {
+        "version": "73f4a619f61742f95a4890b8052ac94037fd1c65c2ab5654063f8817576f4295",
+        "signature": "fc3ab581b8f84386c287337998a0ce3a7a67fda350beba1c5f5212e8b8653895"
+      },
+      "/home/vadym/Project/privat-bank-currency-api-main/src/config/middleware/middleware.ts": {
+        "version": "77bb7df0a22519353cb671d5b98a63e302feb2d8215d5c5a1388064ab8b78e05",
+        "signature": "ab8a5dfe78eff8c796aae7b034be53450fff9d6386751c4e4aeb6dcffaeab4a2"
+      },
+      "/home/vadym/Project/privat-bank-currency-api-main/src/config/server/server.ts": {
+        "version": "0b243939d3901a5be2a160f3121ab1dc02c666c1784dbc5e5e47174a07ead0e8",
+        "signature": "96f7aedb7efd19f446663ee4436695438a1a0ebb5de8857eb0af18e1707210b3"
+      },
+      "/home/vadym/Project/privat-bank-currency-api-main/src/components/Auth/constants.ts": {
+        "version": "846c677d80201b911f033c0257ed919a3f09959e44a4dc270f738224cedea8d9",
+        "signature": "28597fa5717509783517d335d7f2d940d82885ba90fe30830fd9ccfdb8af055b"
+      },
+      "/home/vadym/Project/privat-bank-currency-api-main/src/components/Auth/service.ts": {
+        "version": "d699f3fbc2c7e5894e63b789de814a5817e3ca97a883853674bd320657c0f1aa",
+        "signature": "c8d55938d1cd65b6cd87bdab33d9c4a2b71b2bcaa6e73bf4011eb140866f3096"
+      },
+      "/home/vadym/Project/privat-bank-currency-api-main/src/components/User/interfaces/interface.ts": {
+        "version": "d7f39b68ddc8401e2ed396b098893461e6574447513671270cd2af1f954a2213",
+        "signature": "6b79e111f853e990514402dd0397b444408b0ba88237633b815d693d8c6c09fa"
+      },
+      "/home/vadym/Project/privat-bank-currency-api-main/src/components/User/validations/validation.ts": {
+        "version": "e747b143363a5e882a8ade6066c515abae5beb3ee3fb2a310b85f750c99a3011",
+        "signature": "5902bb3c68912edb0b6cb36c07a09d20ec578a8b9e6d6e1782e90636843a4ccb"
+      },
+      "/home/vadym/Project/privat-bank-currency-api-main/src/components/User/service.ts": {
+        "version": "2947434cd04dce5f7f819eec1a8de4a62a28253120cfea8741d1b2c3cad3b787",
+        "signature": "622e3b32c5e7d984a07bde4cc34f9479e1787ed195092f04c1f77ff8766ec07d"
+      },
+      "/home/vadym/Project/privat-bank-currency-api-main/src/components/Auth/index.ts": {
+        "version": "a5157f636d5b6b10c3530f16830ddca981462f7f0df578652af29dbf18611fcf",
+        "signature": "cb1dfbc999c48fc7319903fafd0a07dcf10a6a6a3129133b506803ace7288fad"
+      },
+      "/home/vadym/Project/privat-bank-currency-api-main/src/components/Auth/validations/filter.ts": {
+        "version": "7d0e24732032622bd08a91ec8d73247c909b47a82e3d2c9047eef291042f1436",
+        "signature": "77c4587a53ba0168ec07a707feac4c320ff71772c23ae7a49f0a88085b318119"
+      },
+      "/home/vadym/Project/privat-bank-currency-api-main/src/guards/interfaces/interface.ts": {
+        "version": "972121b93c0be188728b0b978995f89e564963a629380db35103169825365333",
+        "signature": "deb96e9c11b32c3f3fc690cdc7893e4f320d3e62ccaffcff9a4d9ec7bf795465"
+      },
+      "/home/vadym/Project/privat-bank-currency-api-main/src/guards/jwtAuth.ts": {
+        "version": "74a1d39607032e33bd0dd0a54fca4d012de78b4ae445da044fc11a696e44fd29",
+        "signature": "444c7d9e1b2b3ab11aa2955be01f900f20be2a1134723ccab29ef5c57feb1a5f"
+      },
+      "/home/vadym/Project/privat-bank-currency-api-main/src/components/Auth/router.ts": {
+        "version": "41873f0ef282d79c8434c0615566b6144849642aa0f3a2e4ecc437ccbb4c5092",
+        "signature": "ca82927e98946cea82eaa3cec3020222db41063dd068f6b26c36afaa65fac81a"
+      },
+      "/home/vadym/Project/privat-bank-currency-api-main/node_modules/@types/ping/index.d.ts": {
+        "version": "c729a116c8defbaa78736a2b54ab14c2434c064fd5b233a9a8acad3fba37f465",
+        "signature": "c729a116c8defbaa78736a2b54ab14c2434c064fd5b233a9a8acad3fba37f465"
+      },
+      "/home/vadym/Project/privat-bank-currency-api-main/src/components/Latency/constants.ts": {
+        "version": "d0d3f5bc7c410c5868ece12d573844a74e98754ab938df97c67c9b7b42bb27ef",
+        "signature": "df6052267257b3fcccdbb1b51943e3e61e53f5513ad753d2f00b045090e84eab"
+      },
+      "/home/vadym/Project/privat-bank-currency-api-main/src/components/Latency/index.ts": {
+        "version": "55dc2d2d6d88b319c88a5ada2d4add903292513e92cd08a1face4001153a96a7",
+        "signature": "4591365e7f14c5ff85edf67689ea3a0ead4e948c69e7d1f011336fbe7714cd6c"
+      },
+      "/home/vadym/Project/privat-bank-currency-api-main/src/components/Latency/validations/filter.ts": {
+        "version": "6d4d8169f22280e6c76f5d031f596d823c9e8a6c3ec0e636091be0767c354a64",
+        "signature": "8929f6d6b8660f5782ad55ea39e4d7e41fc6d2110927b0546bef9b119b7836dd"
+      },
+      "/home/vadym/Project/privat-bank-currency-api-main/src/components/Latency/router.ts": {
+        "version": "bd37bac47e5c8cddeb51d03b870396d91784ad2584d64523c8941b660e99c53b",
+        "signature": "ca82927e98946cea82eaa3cec3020222db41063dd068f6b26c36afaa65fac81a"
+      },
+      "/home/vadym/Project/privat-bank-currency-api-main/src/components/User/index.ts": {
+        "version": "dc3bc09e40821800c6da4133de182f4fec3198e70729ec17bcbcc2629d495478",
+        "signature": "57800fb256ec2a057e10da75baa50e1b64fad55c76abe6c7d05b9c5f4ae08375"
+      },
+      "/home/vadym/Project/privat-bank-currency-api-main/src/components/User/router.ts": {
+        "version": "021f1cbb7fe8d26c7305d5f93ea98968221a9548a9e7b8bfc1f9b5f594db53b9",
+        "signature": "ca82927e98946cea82eaa3cec3020222db41063dd068f6b26c36afaa65fac81a"
+      },
+      "/home/vadym/Project/privat-bank-currency-api-main/src/components/router.ts": {
+        "version": "6627a3b2c88169a1b3625dad2f6d6a5298349fda4753b81b316fb8b25e6c95be",
+        "signature": "ebab2bfdd431675b4a8c3ac98c4947b63f1f4c93c8683346ef05b545c441ba55"
+      },
+      "/home/vadym/Project/privat-bank-currency-api-main/node_modules/@types/debug/index.d.ts": {
+        "version": "58b8b686305f7cdb67e77153c7a673e6f2e583f8fa4ebd2a2062fc1702c20191",
+        "signature": "58b8b686305f7cdb67e77153c7a673e6f2e583f8fa4ebd2a2062fc1702c20191"
+      },
+      "/home/vadym/Project/privat-bank-currency-api-main/src/config/server/serverHandlers.ts": {
+        "version": "7514e34c71c647f1cb2922e1c218902e1c38b9c28bd6334bff9b402c814664cd",
+        "signature": "78c2413944bb32ce076c98b01b4a5874a5bbde983abd48f7460b57d7aa1b3513"
+      },
+      "/home/vadym/Project/privat-bank-currency-api-main/src/config/server/index.ts": {
+        "version": "c3eaf415e6baff0a03e97452555be23cc4cabe29cefed320f43d2b86954eb87d",
+        "signature": "22de59b57ade3bbe8ee25ab382017714e6e25a2091a3d79b56ccbd8230a6d6c1"
+      },
+      "/home/vadym/Project/privat-bank-currency-api-main/node_modules/@types/dotenv/index.d.ts": {
+        "version": "9fe460fab563f49a7f51e7f5c38d5dd605a819fd6d0748df7ce5dc1a45eb896f",
+        "signature": "9fe460fab563f49a7f51e7f5c38d5dd605a819fd6d0748df7ce5dc1a45eb896f"
+      },
+      "/home/vadym/Project/privat-bank-currency-api-main/node_modules/@types/mongoose/index.d.ts": {
+        "version": "91c89dfe07544bafa4a239361266a2ba427c87061d7896865e6836d83168bd55",
+        "signature": "91c89dfe07544bafa4a239361266a2ba427c87061d7896865e6836d83168bd55"
+      }
+    },
+    "options": {
+      "module": 1,
+      "declaration": true,
+      "removeComments": true,
+      "emitDecoratorMetadata": true,
+      "experimentalDecorators": true,
+      "allowSyntheticDefaultImports": true,
+      "target": 4,
+      "sourceMap": true,
+      "outDir": "/home/vadym/Project/privat-bank-currency-api-main/dist",
+      "baseUrl": "/home/vadym/Project/privat-bank-currency-api-main/",
+      "incremental": true,
+      "strict": true,
+      "esModuleInterop": true,
+      "paths": {
+        "@config/*": [
+          "./src/config/*"
+        ],
+        "@guards/*": [
+          "./src/guards/*"
+        ],
+        "@components/*": [
+          "./src/components/*"
+        ]
+      },
+      "skipLibCheck": true,
+      "configFilePath": "/home/vadym/Project/privat-bank-currency-api-main/tsconfig.json"
+    },
+    "referencedMap": {
+      "/home/vadym/Project/privat-bank-currency-api-main/node_modules/typescript/lib/lib.es5.d.ts": [
+        "/home/vadym/Project/privat-bank-currency-api-main/node_modules/mongoose/index.d.ts",
+        "/home/vadym/Project/privat-bank-currency-api-main/node_modules/@types/mongoose/index.d.ts"
+      ],
+      "/home/vadym/Project/privat-bank-currency-api-main/node_modules/typescript/lib/lib.es2015.d.ts": [
+        "/home/vadym/Project/privat-bank-currency-api-main/node_modules/mongoose/index.d.ts",
+        "/home/vadym/Project/privat-bank-currency-api-main/node_modules/@types/mongoose/index.d.ts"
+      ],
+      "/home/vadym/Project/privat-bank-currency-api-main/node_modules/typescript/lib/lib.es2016.d.ts": [
+        "/home/vadym/Project/privat-bank-currency-api-main/node_modules/mongoose/index.d.ts",
+        "/home/vadym/Project/privat-bank-currency-api-main/node_modules/@types/mongoose/index.d.ts"
+      ],
+      "/home/vadym/Project/privat-bank-currency-api-main/node_modules/typescript/lib/lib.es2017.d.ts": [
+        "/home/vadym/Project/privat-bank-currency-api-main/node_modules/mongoose/index.d.ts",
+        "/home/vadym/Project/privat-bank-currency-api-main/node_modules/@types/mongoose/index.d.ts"
+      ],
+      "/home/vadym/Project/privat-bank-currency-api-main/node_modules/typescript/lib/lib.dom.d.ts": [
+        "/home/vadym/Project/privat-bank-currency-api-main/node_modules/mongoose/index.d.ts",
+        "/home/vadym/Project/privat-bank-currency-api-main/node_modules/@types/mongoose/index.d.ts"
+      ],
+      "/home/vadym/Project/privat-bank-currency-api-main/node_modules/typescript/lib/lib.dom.iterable.d.ts": [
+        "/home/vadym/Project/privat-bank-currency-api-main/node_modules/mongoose/index.d.ts",
+        "/home/vadym/Project/privat-bank-currency-api-main/node_modules/@types/mongoose/index.d.ts"
+      ],
+      "/home/vadym/Project/privat-bank-currency-api-main/node_modules/typescript/lib/lib.webworker.importscripts.d.ts": [
+        "/home/vadym/Project/privat-bank-currency-api-main/node_modules/mongoose/index.d.ts",
+        "/home/vadym/Project/privat-bank-currency-api-main/node_modules/@types/mongoose/index.d.ts"
+      ],
+      "/home/vadym/Project/privat-bank-currency-api-main/node_modules/typescript/lib/lib.scripthost.d.ts": [
+        "/home/vadym/Project/privat-bank-currency-api-main/node_modules/mongoose/index.d.ts",
+        "/home/vadym/Project/privat-bank-currency-api-main/node_modules/@types/mongoose/index.d.ts"
+      ],
+      "/home/vadym/Project/privat-bank-currency-api-main/node_modules/typescript/lib/lib.es2015.core.d.ts": [
+        "/home/vadym/Project/privat-bank-currency-api-main/node_modules/mongoose/index.d.ts",
+        "/home/vadym/Project/privat-bank-currency-api-main/node_modules/@types/mongoose/index.d.ts"
+      ],
+      "/home/vadym/Project/privat-bank-currency-api-main/node_modules/typescript/lib/lib.es2015.collection.d.ts": [
+        "/home/vadym/Project/privat-bank-currency-api-main/node_modules/mongoose/index.d.ts",
+        "/home/vadym/Project/privat-bank-currency-api-main/node_modules/@types/mongoose/index.d.ts"
+      ],
+      "/home/vadym/Project/privat-bank-currency-api-main/node_modules/typescript/lib/lib.es2015.generator.d.ts": [
+        "/home/vadym/Project/privat-bank-currency-api-main/node_modules/mongoose/index.d.ts",
+        "/home/vadym/Project/privat-bank-currency-api-main/node_modules/@types/mongoose/index.d.ts"
+      ],
+      "/home/vadym/Project/privat-bank-currency-api-main/node_modules/typescript/lib/lib.es2015.iterable.d.ts": [
+        "/home/vadym/Project/privat-bank-currency-api-main/node_modules/mongoose/index.d.ts",
+        "/home/vadym/Project/privat-bank-currency-api-main/node_modules/@types/mongoose/index.d.ts"
+      ],
+      "/home/vadym/Project/privat-bank-currency-api-main/node_modules/typescript/lib/lib.es2015.promise.d.ts": [
+        "/home/vadym/Project/privat-bank-currency-api-main/node_modules/mongoose/index.d.ts",
+        "/home/vadym/Project/privat-bank-currency-api-main/node_modules/@types/mongoose/index.d.ts"
+      ],
+      "/home/vadym/Project/privat-bank-currency-api-main/node_modules/typescript/lib/lib.es2015.proxy.d.ts": [
+        "/home/vadym/Project/privat-bank-currency-api-main/node_modules/mongoose/index.d.ts",
+        "/home/vadym/Project/privat-bank-currency-api-main/node_modules/@types/mongoose/index.d.ts"
+      ],
+      "/home/vadym/Project/privat-bank-currency-api-main/node_modules/typescript/lib/lib.es2015.reflect.d.ts": [
+        "/home/vadym/Project/privat-bank-currency-api-main/node_modules/mongoose/index.d.ts",
+        "/home/vadym/Project/privat-bank-currency-api-main/node_modules/@types/mongoose/index.d.ts"
+      ],
+      "/home/vadym/Project/privat-bank-currency-api-main/node_modules/typescript/lib/lib.es2015.symbol.d.ts": [
+        "/home/vadym/Project/privat-bank-currency-api-main/node_modules/mongoose/index.d.ts",
+        "/home/vadym/Project/privat-bank-currency-api-main/node_modules/@types/mongoose/index.d.ts"
+      ],
+      "/home/vadym/Project/privat-bank-currency-api-main/node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts": [
+        "/home/vadym/Project/privat-bank-currency-api-main/node_modules/mongoose/index.d.ts",
+        "/home/vadym/Project/privat-bank-currency-api-main/node_modules/@types/mongoose/index.d.ts"
+      ],
+      "/home/vadym/Project/privat-bank-currency-api-main/node_modules/typescript/lib/lib.es2016.array.include.d.ts": [
+        "/home/vadym/Project/privat-bank-currency-api-main/node_modules/mongoose/index.d.ts",
+        "/home/vadym/Project/privat-bank-currency-api-main/node_modules/@types/mongoose/index.d.ts"
+      ],
+      "/home/vadym/Project/privat-bank-currency-api-main/node_modules/typescript/lib/lib.es2017.object.d.ts": [
+        "/home/vadym/Project/privat-bank-currency-api-main/node_modules/mongoose/index.d.ts",
+        "/home/vadym/Project/privat-bank-currency-api-main/node_modules/@types/mongoose/index.d.ts"
+      ],
+      "/home/vadym/Project/privat-bank-currency-api-main/node_modules/typescript/lib/lib.es2017.sharedmemory.d.ts": [
+        "/home/vadym/Project/privat-bank-currency-api-main/node_modules/mongoose/index.d.ts",
+        "/home/vadym/Project/privat-bank-currency-api-main/node_modules/@types/mongoose/index.d.ts"
+      ],
+      "/home/vadym/Project/privat-bank-currency-api-main/node_modules/typescript/lib/lib.es2017.string.d.ts": [
+        "/home/vadym/Project/privat-bank-currency-api-main/node_modules/mongoose/index.d.ts",
+        "/home/vadym/Project/privat-bank-currency-api-main/node_modules/@types/mongoose/index.d.ts"
+      ],
+      "/home/vadym/Project/privat-bank-currency-api-main/node_modules/typescript/lib/lib.es2017.intl.d.ts": [
+        "/home/vadym/Project/privat-bank-currency-api-main/node_modules/mongoose/index.d.ts",
+        "/home/vadym/Project/privat-bank-currency-api-main/node_modules/@types/mongoose/index.d.ts"
+      ],
+      "/home/vadym/Project/privat-bank-currency-api-main/node_modules/typescript/lib/lib.es2017.typedarrays.d.ts": [
+        "/home/vadym/Project/privat-bank-currency-api-main/node_modules/mongoose/index.d.ts",
+        "/home/vadym/Project/privat-bank-currency-api-main/node_modules/@types/mongoose/index.d.ts"
+      ],
+      "/home/vadym/Project/privat-bank-currency-api-main/node_modules/typescript/lib/lib.es2018.asynciterable.d.ts": [
+        "/home/vadym/Project/privat-bank-currency-api-main/node_modules/mongoose/index.d.ts",
+        "/home/vadym/Project/privat-bank-currency-api-main/node_modules/@types/mongoose/index.d.ts"
+      ],
+      "/home/vadym/Project/privat-bank-currency-api-main/node_modules/typescript/lib/lib.es2017.full.d.ts": [
+        "/home/vadym/Project/privat-bank-currency-api-main/node_modules/mongoose/index.d.ts",
+        "/home/vadym/Project/privat-bank-currency-api-main/node_modules/@types/mongoose/index.d.ts"
+      ],
+      "/home/vadym/Project/privat-bank-currency-api-main/node_modules/@types/node/inspector.d.ts": [
+        "/home/vadym/Project/privat-bank-currency-api-main/node_modules/@types/node/index.d.ts",
+        "/home/vadym/Project/privat-bank-currency-api-main/node_modules/mongoose/index.d.ts",
+        "/home/vadym/Project/privat-bank-currency-api-main/node_modules/@types/mongoose/index.d.ts"
+      ],
+      "/home/vadym/Project/privat-bank-currency-api-main/node_modules/@types/node/index.d.ts": [
+        "/home/vadym/Project/privat-bank-currency-api-main/node_modules/@types/node/index.d.ts",
+        "/home/vadym/Project/privat-bank-currency-api-main/node_modules/@types/node/inspector.d.ts",
+        "/home/vadym/Project/privat-bank-currency-api-main/node_modules/mongoose/index.d.ts",
+        "/home/vadym/Project/privat-bank-currency-api-main/node_modules/@types/mongoose/index.d.ts"
+      ],
+      "/home/vadym/Project/privat-bank-currency-api-main/node_modules/@types/range-parser/index.d.ts": [
+        "/home/vadym/Project/privat-bank-currency-api-main/node_modules/mongoose/index.d.ts",
+        "/home/vadym/Project/privat-bank-currency-api-main/node_modules/@types/mongoose/index.d.ts"
+      ],
+      "/home/vadym/Project/privat-bank-currency-api-main/node_modules/@types/qs/index.d.ts": [
+        "/home/vadym/Project/privat-bank-currency-api-main/node_modules/mongoose/index.d.ts",
+        "/home/vadym/Project/privat-bank-currency-api-main/node_modules/@types/mongoose/index.d.ts"
+      ],
+      "/home/vadym/Project/privat-bank-currency-api-main/node_modules/@types/express-serve-static-core/index.d.ts": [
+        "/home/vadym/Project/privat-bank-currency-api-main/node_modules/@types/node/index.d.ts",
+        "/home/vadym/Project/privat-bank-currency-api-main/node_modules/@types/range-parser/index.d.ts",
+        "/home/vadym/Project/privat-bank-currency-api-main/node_modules/@types/qs/index.d.ts",
+        "/home/vadym/Project/privat-bank-currency-api-main/node_modules/mongoose/index.d.ts",
+        "/home/vadym/Project/privat-bank-currency-api-main/node_modules/@types/mongoose/index.d.ts"
+      ],
+      "/home/vadym/Project/privat-bank-currency-api-main/node_modules/@types/mime/index.d.ts": [
+        "/home/vadym/Project/privat-bank-currency-api-main/node_modules/mongoose/index.d.ts",
+        "/home/vadym/Project/privat-bank-currency-api-main/node_modules/@types/mongoose/index.d.ts"
+      ],
+      "/home/vadym/Project/privat-bank-currency-api-main/node_modules/@types/serve-static/index.d.ts": [
+        "/home/vadym/Project/privat-bank-currency-api-main/node_modules/@types/mime/index.d.ts",
+        "/home/vadym/Project/privat-bank-currency-api-main/node_modules/@types/node/index.d.ts",
+        "/home/vadym/Project/privat-bank-currency-api-main/node_modules/mongoose/index.d.ts",
+        "/home/vadym/Project/privat-bank-currency-api-main/node_modules/@types/mongoose/index.d.ts"
+      ],
+      "/home/vadym/Project/privat-bank-currency-api-main/node_modules/@types/body-parser/index.d.ts": [
+        "/home/vadym/Project/privat-bank-currency-api-main/node_modules/@types/express/index.d.ts",
+        "/home/vadym/Project/privat-bank-currency-api-main/node_modules/@types/node/index.d.ts",
+        "/home/vadym/Project/privat-bank-currency-api-main/node_modules/mongoose/index.d.ts",
+        "/home/vadym/Project/privat-bank-currency-api-main/node_modules/@types/mongoose/index.d.ts"
+      ],
+      "/home/vadym/Project/privat-bank-currency-api-main/node_modules/@types/express/index.d.ts": [
+        "/home/vadym/Project/privat-bank-currency-api-main/node_modules/@types/body-parser/index.d.ts",
+        "/home/vadym/Project/privat-bank-currency-api-main/node_modules/@types/serve-static/index.d.ts",
+        "/home/vadym/Project/privat-bank-currency-api-main/node_modules/@types/express-serve-static-core/index.d.ts",
+        "/home/vadym/Project/privat-bank-currency-api-main/node_modules/mongoose/index.d.ts",
+        "/home/vadym/Project/privat-bank-currency-api-main/node_modules/@types/mongoose/index.d.ts"
+      ],
+      "/home/vadym/Project/privat-bank-currency-api-main/node_modules/@types/joi/index.d.ts": [
+        "/home/vadym/Project/privat-bank-currency-api-main/node_modules/@types/joi/index.d.ts",
+        "/home/vadym/Project/privat-bank-currency-api-main/node_modules/mongoose/index.d.ts",
+        "/home/vadym/Project/privat-bank-currency-api-main/node_modules/@types/mongoose/index.d.ts"
+      ],
+      "/home/vadym/Project/privat-bank-currency-api-main/node_modules/@types/bson/index.d.ts": [
+        "/home/vadym/Project/privat-bank-currency-api-main/node_modules/@types/node/index.d.ts",
+        "/home/vadym/Project/privat-bank-currency-api-main/node_modules/mongoose/index.d.ts",
+        "/home/vadym/Project/privat-bank-currency-api-main/node_modules/@types/mongoose/index.d.ts"
+      ],
+      "/home/vadym/Project/privat-bank-currency-api-main/node_modules/@types/mongodb/index.d.ts": [
+        "/home/vadym/Project/privat-bank-currency-api-main/node_modules/@types/bson/index.d.ts",
+        "/home/vadym/Project/privat-bank-currency-api-main/node_modules/@types/node/index.d.ts",
+        "/home/vadym/Project/privat-bank-currency-api-main/node_modules/mongoose/index.d.ts",
+        "/home/vadym/Project/privat-bank-currency-api-main/node_modules/@types/mongoose/index.d.ts"
+      ],
+      "/home/vadym/Project/privat-bank-currency-api-main/node_modules/mongoose/index.d.ts": [
+        "/home/vadym/Project/privat-bank-currency-api-main/node_modules/@types/node/index.d.ts",
+        "/home/vadym/Project/privat-bank-currency-api-main/node_modules/@types/mongodb/index.d.ts",
+        "/home/vadym/Project/privat-bank-currency-api-main/node_modules/mongoose/index.d.ts",
+        "/home/vadym/Project/privat-bank-currency-api-main/node_modules/@types/mongoose/index.d.ts"
+      ],
+      "/home/vadym/Project/privat-bank-currency-api-main/src/components/validation.ts": [
+        "/home/vadym/Project/privat-bank-currency-api-main/node_modules/@types/joi/index.d.ts",
+        "/home/vadym/Project/privat-bank-currency-api-main/node_modules/mongoose/index.d.ts",
+        "/home/vadym/Project/privat-bank-currency-api-main/node_modules/@types/mongoose/index.d.ts"
+      ],
+      "/home/vadym/Project/privat-bank-currency-api-main/node_modules/@types/bcrypt/index.d.ts": [
+        "/home/vadym/Project/privat-bank-currency-api-main/node_modules/mongoose/index.d.ts",
+        "/home/vadym/Project/privat-bank-currency-api-main/node_modules/@types/mongoose/index.d.ts"
+      ],
+      "/home/vadym/Project/privat-bank-currency-api-main/node_modules/dotenv/types/index.d.ts": [
+        "/home/vadym/Project/privat-bank-currency-api-main/node_modules/@types/node/index.d.ts",
+        "/home/vadym/Project/privat-bank-currency-api-main/node_modules/mongoose/index.d.ts",
+        "/home/vadym/Project/privat-bank-currency-api-main/node_modules/@types/mongoose/index.d.ts"
+      ],
+      "/home/vadym/Project/privat-bank-currency-api-main/src/config/env/interfaces/interface.ts": [
+        "/home/vadym/Project/privat-bank-currency-api-main/node_modules/mongoose/index.d.ts",
+        "/home/vadym/Project/privat-bank-currency-api-main/node_modules/@types/mongoose/index.d.ts"
+      ],
+      "/home/vadym/Project/privat-bank-currency-api-main/src/config/env/index.ts": [
+        "/home/vadym/Project/privat-bank-currency-api-main/node_modules/dotenv/types/index.d.ts",
+        "/home/vadym/Project/privat-bank-currency-api-main/src/config/env/interfaces/interface.ts",
+        "/home/vadym/Project/privat-bank-currency-api-main/node_modules/mongoose/index.d.ts",
+        "/home/vadym/Project/privat-bank-currency-api-main/node_modules/@types/mongoose/index.d.ts"
+      ],
+      "/home/vadym/Project/privat-bank-currency-api-main/src/config/connection/interfaces/interface.ts": [
+        "/home/vadym/Project/privat-bank-currency-api-main/node_modules/mongoose/index.d.ts",
+        "/home/vadym/Project/privat-bank-currency-api-main/node_modules/@types/mongoose/index.d.ts"
+      ],
+      "/home/vadym/Project/privat-bank-currency-api-main/src/config/connection/connection.ts": [
+        "/home/vadym/Project/privat-bank-currency-api-main/node_modules/mongoose/index.d.ts",
+        "/home/vadym/Project/privat-bank-currency-api-main/src/config/env/index.ts",
+        "/home/vadym/Project/privat-bank-currency-api-main/src/config/connection/interfaces/interface.ts",
+        "/home/vadym/Project/privat-bank-currency-api-main/node_modules/@types/mongoose/index.d.ts"
+      ],
+      "/home/vadym/Project/privat-bank-currency-api-main/src/components/User/models/model.ts": [
+        "/home/vadym/Project/privat-bank-currency-api-main/node_modules/@types/bcrypt/index.d.ts",
+        "/home/vadym/Project/privat-bank-currency-api-main/src/config/connection/connection.ts",
+        "/home/vadym/Project/privat-bank-currency-api-main/node_modules/mongoose/index.d.ts",
+        "/home/vadym/Project/privat-bank-currency-api-main/node_modules/@types/express/index.d.ts",
+        "/home/vadym/Project/privat-bank-currency-api-main/node_modules/@types/mongoose/index.d.ts"
+      ],
+      "/home/vadym/Project/privat-bank-currency-api-main/src/components/Auth/validations/validation.ts": [
+        "/home/vadym/Project/privat-bank-currency-api-main/node_modules/@types/joi/index.d.ts",
+        "/home/vadym/Project/privat-bank-currency-api-main/src/components/validation.ts",
+        "/home/vadym/Project/privat-bank-currency-api-main/src/components/User/models/model.ts",
+        "/home/vadym/Project/privat-bank-currency-api-main/node_modules/mongoose/index.d.ts",
+        "/home/vadym/Project/privat-bank-currency-api-main/node_modules/@types/mongoose/index.d.ts"
+      ],
+      "/home/vadym/Project/privat-bank-currency-api-main/src/components/Auth/interfaces/interface.ts": [
+        "/home/vadym/Project/privat-bank-currency-api-main/src/components/User/models/model.ts",
+        "/home/vadym/Project/privat-bank-currency-api-main/node_modules/mongoose/index.d.ts",
+        "/home/vadym/Project/privat-bank-currency-api-main/node_modules/@types/mongoose/index.d.ts"
+      ],
+      "/home/vadym/Project/privat-bank-currency-api-main/node_modules/@types/jsonwebtoken/index.d.ts": [
+        "/home/vadym/Project/privat-bank-currency-api-main/node_modules/@types/node/index.d.ts",
+        "/home/vadym/Project/privat-bank-currency-api-main/node_modules/mongoose/index.d.ts",
+        "/home/vadym/Project/privat-bank-currency-api-main/node_modules/@types/mongoose/index.d.ts"
+      ],
+      "/home/vadym/Project/privat-bank-currency-api-main/node_modules/@types/compression/index.d.ts": [
+        "/home/vadym/Project/privat-bank-currency-api-main/node_modules/@types/express/index.d.ts",
+        "/home/vadym/Project/privat-bank-currency-api-main/node_modules/mongoose/index.d.ts",
+        "/home/vadym/Project/privat-bank-currency-api-main/node_modules/@types/mongoose/index.d.ts"
+      ],
+      "/home/vadym/Project/privat-bank-currency-api-main/node_modules/@types/cookie-parser/index.d.ts": [
+        "/home/vadym/Project/privat-bank-currency-api-main/node_modules/@types/express/index.d.ts",
+        "/home/vadym/Project/privat-bank-currency-api-main/node_modules/mongoose/index.d.ts",
+        "/home/vadym/Project/privat-bank-currency-api-main/node_modules/@types/mongoose/index.d.ts"
+      ],
+      "/home/vadym/Project/privat-bank-currency-api-main/node_modules/@types/cors/index.d.ts": [
+        "/home/vadym/Project/privat-bank-currency-api-main/node_modules/@types/express/index.d.ts",
+        "/home/vadym/Project/privat-bank-currency-api-main/node_modules/mongoose/index.d.ts",
+        "/home/vadym/Project/privat-bank-currency-api-main/node_modules/@types/mongoose/index.d.ts"
+      ],
+      "/home/vadym/Project/privat-bank-currency-api-main/node_modules/@types/helmet/index.d.ts": [
+        "/home/vadym/Project/privat-bank-currency-api-main/node_modules/@types/express/index.d.ts",
+        "/home/vadym/Project/privat-bank-currency-api-main/node_modules/mongoose/index.d.ts",
+        "/home/vadym/Project/privat-bank-currency-api-main/node_modules/@types/mongoose/index.d.ts"
+      ],
+      "/home/vadym/Project/privat-bank-currency-api-main/src/config/error/index.ts": [
+        "/home/vadym/Project/privat-bank-currency-api-main/node_modules/@types/node/index.d.ts",
+        "/home/vadym/Project/privat-bank-currency-api-main/node_modules/mongoose/index.d.ts",
+        "/home/vadym/Project/privat-bank-currency-api-main/node_modules/@types/mongoose/index.d.ts"
+      ],
+      "/home/vadym/Project/privat-bank-currency-api-main/src/config/error/sendHttpError.ts": [
+        "/home/vadym/Project/privat-bank-currency-api-main/src/config/error/index.ts",
+        "/home/vadym/Project/privat-bank-currency-api-main/node_modules/@types/express/index.d.ts",
+        "/home/vadym/Project/privat-bank-currency-api-main/node_modules/mongoose/index.d.ts",
+        "/home/vadym/Project/privat-bank-currency-api-main/node_modules/@types/mongoose/index.d.ts"
+      ],
+      "/home/vadym/Project/privat-bank-currency-api-main/src/config/middleware/interfaces/interface.ts": [
+        "/home/vadym/Project/privat-bank-currency-api-main/node_modules/@types/express/index.d.ts",
+        "/home/vadym/Project/privat-bank-currency-api-main/src/config/error/index.ts",
+        "/home/vadym/Project/privat-bank-currency-api-main/node_modules/mongoose/index.d.ts",
+        "/home/vadym/Project/privat-bank-currency-api-main/node_modules/@types/mongoose/index.d.ts"
+      ],
+      "/home/vadym/Project/privat-bank-currency-api-main/src/config/middleware/middleware.ts": [
+        "/home/vadym/Project/privat-bank-currency-api-main/node_modules/@types/body-parser/index.d.ts",
+        "/home/vadym/Project/privat-bank-currency-api-main/node_modules/@types/compression/index.d.ts",
+        "/home/vadym/Project/privat-bank-currency-api-main/node_modules/@types/cookie-parser/index.d.ts",
+        "/home/vadym/Project/privat-bank-currency-api-main/node_modules/@types/cors/index.d.ts",
+        "/home/vadym/Project/privat-bank-currency-api-main/node_modules/@types/express/index.d.ts",
+        "/home/vadym/Project/privat-bank-currency-api-main/node_modules/@types/helmet/index.d.ts",
+        "/home/vadym/Project/privat-bank-currency-api-main/src/config/error/index.ts",
+        "/home/vadym/Project/privat-bank-currency-api-main/src/config/error/sendHttpError.ts",
+        "/home/vadym/Project/privat-bank-currency-api-main/src/config/middleware/interfaces/interface.ts",
+        "/home/vadym/Project/privat-bank-currency-api-main/node_modules/mongoose/index.d.ts",
+        "/home/vadym/Project/privat-bank-currency-api-main/node_modules/@types/mongoose/index.d.ts"
+      ],
+      "/home/vadym/Project/privat-bank-currency-api-main/src/config/server/server.ts": [
+        "/home/vadym/Project/privat-bank-currency-api-main/node_modules/@types/express/index.d.ts",
+        "/home/vadym/Project/privat-bank-currency-api-main/src/config/middleware/middleware.ts",
+        "/home/vadym/Project/privat-bank-currency-api-main/src/components/router.ts",
+        "/home/vadym/Project/privat-bank-currency-api-main/node_modules/mongoose/index.d.ts",
+        "/home/vadym/Project/privat-bank-currency-api-main/node_modules/@types/mongoose/index.d.ts"
+      ],
+      "/home/vadym/Project/privat-bank-currency-api-main/src/components/Auth/constants.ts": [
+        "/home/vadym/Project/privat-bank-currency-api-main/node_modules/mongoose/index.d.ts",
+        "/home/vadym/Project/privat-bank-currency-api-main/node_modules/@types/mongoose/index.d.ts"
+      ],
+      "/home/vadym/Project/privat-bank-currency-api-main/src/components/Auth/service.ts": [
+        "/home/vadym/Project/privat-bank-currency-api-main/node_modules/@types/joi/index.d.ts",
+        "/home/vadym/Project/privat-bank-currency-api-main/src/components/Auth/validations/validation.ts",
+        "/home/vadym/Project/privat-bank-currency-api-main/src/components/User/models/model.ts",
+        "/home/vadym/Project/privat-bank-currency-api-main/src/components/Auth/interfaces/interface.ts",
+        "/home/vadym/Project/privat-bank-currency-api-main/node_modules/@types/jsonwebtoken/index.d.ts",
+        "/home/vadym/Project/privat-bank-currency-api-main/src/config/server/server.ts",
+        "/home/vadym/Project/privat-bank-currency-api-main/src/components/Auth/constants.ts",
+        "/home/vadym/Project/privat-bank-currency-api-main/node_modules/mongoose/index.d.ts",
+        "/home/vadym/Project/privat-bank-currency-api-main/node_modules/@types/mongoose/index.d.ts"
+      ],
+      "/home/vadym/Project/privat-bank-currency-api-main/src/components/User/interfaces/interface.ts": [
+        "/home/vadym/Project/privat-bank-currency-api-main/src/components/User/models/model.ts",
+        "/home/vadym/Project/privat-bank-currency-api-main/node_modules/mongoose/index.d.ts",
+        "/home/vadym/Project/privat-bank-currency-api-main/node_modules/@types/mongoose/index.d.ts"
+      ],
+      "/home/vadym/Project/privat-bank-currency-api-main/src/components/User/validations/validation.ts": [
+        "/home/vadym/Project/privat-bank-currency-api-main/node_modules/@types/joi/index.d.ts",
+        "/home/vadym/Project/privat-bank-currency-api-main/src/components/validation.ts",
+        "/home/vadym/Project/privat-bank-currency-api-main/src/components/Auth/constants.ts",
+        "/home/vadym/Project/privat-bank-currency-api-main/src/components/User/models/model.ts",
+        "/home/vadym/Project/privat-bank-currency-api-main/node_modules/mongoose/index.d.ts",
+        "/home/vadym/Project/privat-bank-currency-api-main/node_modules/@types/mongoose/index.d.ts"
+      ],
+      "/home/vadym/Project/privat-bank-currency-api-main/src/components/User/service.ts": [
+        "/home/vadym/Project/privat-bank-currency-api-main/node_modules/@types/joi/index.d.ts",
+        "/home/vadym/Project/privat-bank-currency-api-main/src/components/User/interfaces/interface.ts",
+        "/home/vadym/Project/privat-bank-currency-api-main/src/components/User/models/model.ts",
+        "/home/vadym/Project/privat-bank-currency-api-main/src/components/User/validations/validation.ts",
+        "/home/vadym/Project/privat-bank-currency-api-main/src/components/Auth/service.ts",
+        "/home/vadym/Project/privat-bank-currency-api-main/node_modules/mongoose/index.d.ts",
+        "/home/vadym/Project/privat-bank-currency-api-main/node_modules/@types/mongoose/index.d.ts"
+      ],
+      "/home/vadym/Project/privat-bank-currency-api-main/src/components/Auth/index.ts": [
+        "/home/vadym/Project/privat-bank-currency-api-main/src/components/Auth/service.ts",
+        "/home/vadym/Project/privat-bank-currency-api-main/src/components/User/models/model.ts",
+        "/home/vadym/Project/privat-bank-currency-api-main/node_modules/@types/express/index.d.ts",
+        "/home/vadym/Project/privat-bank-currency-api-main/src/components/User/service.ts",
+        "/home/vadym/Project/privat-bank-currency-api-main/node_modules/mongoose/index.d.ts",
+        "/home/vadym/Project/privat-bank-currency-api-main/node_modules/@types/mongoose/index.d.ts"
+      ],
+      "/home/vadym/Project/privat-bank-currency-api-main/src/components/Auth/validations/filter.ts": [
+        "/home/vadym/Project/privat-bank-currency-api-main/node_modules/@types/express/index.d.ts",
+        "/home/vadym/Project/privat-bank-currency-api-main/src/config/error/index.ts",
+        "/home/vadym/Project/privat-bank-currency-api-main/node_modules/mongoose/index.d.ts",
+        "/home/vadym/Project/privat-bank-currency-api-main/node_modules/@types/mongoose/index.d.ts"
+      ],
+      "/home/vadym/Project/privat-bank-currency-api-main/src/guards/interfaces/interface.ts": [
+        "/home/vadym/Project/privat-bank-currency-api-main/node_modules/@types/express/index.d.ts",
+        "/home/vadym/Project/privat-bank-currency-api-main/src/components/User/models/model.ts",
+        "/home/vadym/Project/privat-bank-currency-api-main/node_modules/mongoose/index.d.ts",
+        "/home/vadym/Project/privat-bank-currency-api-main/node_modules/@types/mongoose/index.d.ts"
+      ],
+      "/home/vadym/Project/privat-bank-currency-api-main/src/guards/jwtAuth.ts": [
+        "/home/vadym/Project/privat-bank-currency-api-main/node_modules/@types/express/index.d.ts",
+        "/home/vadym/Project/privat-bank-currency-api-main/src/config/error/index.ts",
+        "/home/vadym/Project/privat-bank-currency-api-main/node_modules/@types/node/index.d.ts",
+        "/home/vadym/Project/privat-bank-currency-api-main/src/guards/interfaces/interface.ts",
+        "/home/vadym/Project/privat-bank-currency-api-main/src/components/User/models/model.ts",
+        "/home/vadym/Project/privat-bank-currency-api-main/node_modules/mongoose/index.d.ts",
+        "/home/vadym/Project/privat-bank-currency-api-main/node_modules/@types/mongoose/index.d.ts"
+      ],
+      "/home/vadym/Project/privat-bank-currency-api-main/src/components/Auth/router.ts": [
+        "/home/vadym/Project/privat-bank-currency-api-main/src/components/Auth/index.ts",
+        "/home/vadym/Project/privat-bank-currency-api-main/node_modules/@types/express/index.d.ts",
+        "/home/vadym/Project/privat-bank-currency-api-main/src/components/Auth/validations/filter.ts",
+        "/home/vadym/Project/privat-bank-currency-api-main/src/guards/jwtAuth.ts",
+        "/home/vadym/Project/privat-bank-currency-api-main/node_modules/mongoose/index.d.ts",
+        "/home/vadym/Project/privat-bank-currency-api-main/node_modules/@types/mongoose/index.d.ts"
+      ],
+      "/home/vadym/Project/privat-bank-currency-api-main/node_modules/@types/ping/index.d.ts": [
+        "/home/vadym/Project/privat-bank-currency-api-main/node_modules/mongoose/index.d.ts",
+        "/home/vadym/Project/privat-bank-currency-api-main/node_modules/@types/mongoose/index.d.ts"
+      ],
+      "/home/vadym/Project/privat-bank-currency-api-main/src/components/Latency/constants.ts": [
+        "/home/vadym/Project/privat-bank-currency-api-main/node_modules/mongoose/index.d.ts",
+        "/home/vadym/Project/privat-bank-currency-api-main/node_modules/@types/mongoose/index.d.ts"
+      ],
+      "/home/vadym/Project/privat-bank-currency-api-main/src/components/Latency/index.ts": [
+        "/home/vadym/Project/privat-bank-currency-api-main/node_modules/@types/express/index.d.ts",
+        "/home/vadym/Project/privat-bank-currency-api-main/node_modules/@types/ping/index.d.ts",
+        "/home/vadym/Project/privat-bank-currency-api-main/src/components/Latency/constants.ts",
+        "/home/vadym/Project/privat-bank-currency-api-main/node_modules/mongoose/index.d.ts",
+        "/home/vadym/Project/privat-bank-currency-api-main/node_modules/@types/mongoose/index.d.ts"
+      ],
+      "/home/vadym/Project/privat-bank-currency-api-main/src/components/Latency/validations/filter.ts": [
+        "/home/vadym/Project/privat-bank-currency-api-main/node_modules/@types/express/index.d.ts",
+        "/home/vadym/Project/privat-bank-currency-api-main/src/config/error/index.ts",
+        "/home/vadym/Project/privat-bank-currency-api-main/node_modules/mongoose/index.d.ts",
+        "/home/vadym/Project/privat-bank-currency-api-main/node_modules/@types/mongoose/index.d.ts"
+      ],
+      "/home/vadym/Project/privat-bank-currency-api-main/src/components/Latency/router.ts": [
+        "/home/vadym/Project/privat-bank-currency-api-main/node_modules/@types/express/index.d.ts",
+        "/home/vadym/Project/privat-bank-currency-api-main/src/components/Latency/index.ts",
+        "/home/vadym/Project/privat-bank-currency-api-main/src/guards/jwtAuth.ts",
+        "/home/vadym/Project/privat-bank-currency-api-main/src/components/Latency/validations/filter.ts",
+        "/home/vadym/Project/privat-bank-currency-api-main/node_modules/mongoose/index.d.ts",
+        "/home/vadym/Project/privat-bank-currency-api-main/node_modules/@types/mongoose/index.d.ts"
+      ],
+      "/home/vadym/Project/privat-bank-currency-api-main/src/components/User/index.ts": [
+        "/home/vadym/Project/privat-bank-currency-api-main/node_modules/@types/express/index.d.ts",
+        "/home/vadym/Project/privat-bank-currency-api-main/src/components/User/service.ts",
+        "/home/vadym/Project/privat-bank-currency-api-main/src/components/User/models/model.ts",
+        "/home/vadym/Project/privat-bank-currency-api-main/node_modules/mongoose/index.d.ts",
+        "/home/vadym/Project/privat-bank-currency-api-main/node_modules/@types/mongoose/index.d.ts"
+      ],
+      "/home/vadym/Project/privat-bank-currency-api-main/src/components/User/router.ts": [
+        "/home/vadym/Project/privat-bank-currency-api-main/node_modules/@types/express/index.d.ts",
+        "/home/vadym/Project/privat-bank-currency-api-main/src/components/User/index.ts",
+        "/home/vadym/Project/privat-bank-currency-api-main/src/guards/jwtAuth.ts",
+        "/home/vadym/Project/privat-bank-currency-api-main/node_modules/mongoose/index.d.ts",
+        "/home/vadym/Project/privat-bank-currency-api-main/node_modules/@types/mongoose/index.d.ts"
+      ],
+      "/home/vadym/Project/privat-bank-currency-api-main/src/components/router.ts": [
+        "/home/vadym/Project/privat-bank-currency-api-main/node_modules/@types/express/index.d.ts",
+        "/home/vadym/Project/privat-bank-currency-api-main/node_modules/@types/node/index.d.ts",
+        "/home/vadym/Project/privat-bank-currency-api-main/src/components/Auth/router.ts",
+        "/home/vadym/Project/privat-bank-currency-api-main/src/components/Latency/router.ts",
+        "/home/vadym/Project/privat-bank-currency-api-main/src/components/User/router.ts",
+        "/home/vadym/Project/privat-bank-currency-api-main/node_modules/mongoose/index.d.ts",
+        "/home/vadym/Project/privat-bank-currency-api-main/node_modules/@types/mongoose/index.d.ts"
+      ],
+      "/home/vadym/Project/privat-bank-currency-api-main/node_modules/@types/debug/index.d.ts": [
+        "/home/vadym/Project/privat-bank-currency-api-main/node_modules/mongoose/index.d.ts",
+        "/home/vadym/Project/privat-bank-currency-api-main/node_modules/@types/mongoose/index.d.ts"
+      ],
+      "/home/vadym/Project/privat-bank-currency-api-main/src/config/server/serverHandlers.ts": [
+        "/home/vadym/Project/privat-bank-currency-api-main/node_modules/@types/debug/index.d.ts",
+        "/home/vadym/Project/privat-bank-currency-api-main/node_modules/@types/node/index.d.ts",
+        "/home/vadym/Project/privat-bank-currency-api-main/node_modules/mongoose/index.d.ts",
+        "/home/vadym/Project/privat-bank-currency-api-main/node_modules/@types/mongoose/index.d.ts"
+      ],
+      "/home/vadym/Project/privat-bank-currency-api-main/src/config/server/index.ts": [
+        "/home/vadym/Project/privat-bank-currency-api-main/node_modules/@types/node/index.d.ts",
+        "/home/vadym/Project/privat-bank-currency-api-main/src/config/server/serverHandlers.ts",
+        "/home/vadym/Project/privat-bank-currency-api-main/src/config/server/server.ts",
+        "/home/vadym/Project/privat-bank-currency-api-main/node_modules/mongoose/index.d.ts",
+        "/home/vadym/Project/privat-bank-currency-api-main/node_modules/@types/mongoose/index.d.ts"
+      ],
+      "/home/vadym/Project/privat-bank-currency-api-main/node_modules/@types/dotenv/index.d.ts": [
+        "/home/vadym/Project/privat-bank-currency-api-main/node_modules/@types/node/index.d.ts",
+        "/home/vadym/Project/privat-bank-currency-api-main/node_modules/mongoose/index.d.ts",
+        "/home/vadym/Project/privat-bank-currency-api-main/node_modules/@types/mongoose/index.d.ts"
+      ],
+      "/home/vadym/Project/privat-bank-currency-api-main/node_modules/@types/mongoose/index.d.ts": [
+        "/home/vadym/Project/privat-bank-currency-api-main/node_modules/@types/node/index.d.ts",
+        "/home/vadym/Project/privat-bank-currency-api-main/node_modules/@types/mongodb/index.d.ts",
+        "/home/vadym/Project/privat-bank-currency-api-main/node_modules/mongoose/index.d.ts"
+      ]
+    },
+    "exportedModulesMap": {
+      "/home/vadym/Project/privat-bank-currency-api-main/node_modules/@types/node/inspector.d.ts": [
+        "/home/vadym/Project/privat-bank-currency-api-main/node_modules/@types/node/index.d.ts"
+      ],
+      "/home/vadym/Project/privat-bank-currency-api-main/node_modules/@types/node/index.d.ts": [
+        "/home/vadym/Project/privat-bank-currency-api-main/node_modules/@types/node/index.d.ts",
+        "/home/vadym/Project/privat-bank-currency-api-main/node_modules/@types/node/inspector.d.ts"
+      ],
+      "/home/vadym/Project/privat-bank-currency-api-main/node_modules/@types/express-serve-static-core/index.d.ts": [
+        "/home/vadym/Project/privat-bank-currency-api-main/node_modules/@types/node/index.d.ts",
+        "/home/vadym/Project/privat-bank-currency-api-main/node_modules/@types/range-parser/index.d.ts",
+        "/home/vadym/Project/privat-bank-currency-api-main/node_modules/@types/qs/index.d.ts"
+      ],
+      "/home/vadym/Project/privat-bank-currency-api-main/node_modules/@types/serve-static/index.d.ts": [
+        "/home/vadym/Project/privat-bank-currency-api-main/node_modules/@types/mime/index.d.ts",
+        "/home/vadym/Project/privat-bank-currency-api-main/node_modules/@types/node/index.d.ts"
+      ],
+      "/home/vadym/Project/privat-bank-currency-api-main/node_modules/@types/body-parser/index.d.ts": [
+        "/home/vadym/Project/privat-bank-currency-api-main/node_modules/@types/express/index.d.ts",
+        "/home/vadym/Project/privat-bank-currency-api-main/node_modules/@types/node/index.d.ts"
+      ],
+      "/home/vadym/Project/privat-bank-currency-api-main/node_modules/@types/express/index.d.ts": [
+        "/home/vadym/Project/privat-bank-currency-api-main/node_modules/@types/body-parser/index.d.ts",
+        "/home/vadym/Project/privat-bank-currency-api-main/node_modules/@types/serve-static/index.d.ts",
+        "/home/vadym/Project/privat-bank-currency-api-main/node_modules/@types/express-serve-static-core/index.d.ts"
+      ],
+      "/home/vadym/Project/privat-bank-currency-api-main/node_modules/@types/joi/index.d.ts": [
+        "/home/vadym/Project/privat-bank-currency-api-main/node_modules/@types/joi/index.d.ts"
+      ],
+      "/home/vadym/Project/privat-bank-currency-api-main/node_modules/@types/bson/index.d.ts": [
+        "/home/vadym/Project/privat-bank-currency-api-main/node_modules/@types/node/index.d.ts"
+      ],
+      "/home/vadym/Project/privat-bank-currency-api-main/node_modules/@types/mongodb/index.d.ts": [
+        "/home/vadym/Project/privat-bank-currency-api-main/node_modules/@types/bson/index.d.ts",
+        "/home/vadym/Project/privat-bank-currency-api-main/node_modules/@types/node/index.d.ts"
+      ],
+      "/home/vadym/Project/privat-bank-currency-api-main/node_modules/mongoose/index.d.ts": [
+        "/home/vadym/Project/privat-bank-currency-api-main/node_modules/@types/node/index.d.ts",
+        "/home/vadym/Project/privat-bank-currency-api-main/node_modules/@types/mongodb/index.d.ts",
+        "/home/vadym/Project/privat-bank-currency-api-main/node_modules/mongoose/index.d.ts",
+        "/home/vadym/Project/privat-bank-currency-api-main/node_modules/@types/mongoose/index.d.ts"
+      ],
+      "/home/vadym/Project/privat-bank-currency-api-main/node_modules/dotenv/types/index.d.ts": [
+        "/home/vadym/Project/privat-bank-currency-api-main/node_modules/@types/node/index.d.ts"
+      ],
+      "/home/vadym/Project/privat-bank-currency-api-main/src/config/env/index.ts": [
+        "/home/vadym/Project/privat-bank-currency-api-main/src/config/env/interfaces/interface.ts"
+      ],
+      "/home/vadym/Project/privat-bank-currency-api-main/src/config/connection/connection.ts": [
+        "/home/vadym/Project/privat-bank-currency-api-main/node_modules/@types/mongoose/index.d.ts"
+      ],
+      "/home/vadym/Project/privat-bank-currency-api-main/src/components/User/models/model.ts": [
+        "/home/vadym/Project/privat-bank-currency-api-main/node_modules/@types/mongoose/index.d.ts"
+      ],
+      "/home/vadym/Project/privat-bank-currency-api-main/src/components/Auth/validations/validation.ts": [
+        "/home/vadym/Project/privat-bank-currency-api-main/src/components/User/models/model.ts",
+        "/home/vadym/Project/privat-bank-currency-api-main/node_modules/@types/joi/index.d.ts",
+        "/home/vadym/Project/privat-bank-currency-api-main/src/components/validation.ts"
+      ],
+      "/home/vadym/Project/privat-bank-currency-api-main/src/components/Auth/interfaces/interface.ts": [
+        "/home/vadym/Project/privat-bank-currency-api-main/src/components/User/models/model.ts"
+      ],
+      "/home/vadym/Project/privat-bank-currency-api-main/node_modules/@types/jsonwebtoken/index.d.ts": [
+        "/home/vadym/Project/privat-bank-currency-api-main/node_modules/@types/node/index.d.ts"
+      ],
+      "/home/vadym/Project/privat-bank-currency-api-main/node_modules/@types/compression/index.d.ts": [
+        "/home/vadym/Project/privat-bank-currency-api-main/node_modules/@types/express/index.d.ts"
+      ],
+      "/home/vadym/Project/privat-bank-currency-api-main/node_modules/@types/cookie-parser/index.d.ts": [
+        "/home/vadym/Project/privat-bank-currency-api-main/node_modules/@types/express/index.d.ts"
+      ],
+      "/home/vadym/Project/privat-bank-currency-api-main/node_modules/@types/cors/index.d.ts": [
+        "/home/vadym/Project/privat-bank-currency-api-main/node_modules/@types/express/index.d.ts"
+      ],
+      "/home/vadym/Project/privat-bank-currency-api-main/node_modules/@types/helmet/index.d.ts": [
+        "/home/vadym/Project/privat-bank-currency-api-main/node_modules/@types/express/index.d.ts"
+      ],
+      "/home/vadym/Project/privat-bank-currency-api-main/src/config/error/sendHttpError.ts": [
+        "/home/vadym/Project/privat-bank-currency-api-main/node_modules/@types/express/index.d.ts"
+      ],
+      "/home/vadym/Project/privat-bank-currency-api-main/src/config/middleware/interfaces/interface.ts": [
+        "/home/vadym/Project/privat-bank-currency-api-main/node_modules/@types/express/index.d.ts",
+        "/home/vadym/Project/privat-bank-currency-api-main/src/config/error/index.ts"
+      ],
+      "/home/vadym/Project/privat-bank-currency-api-main/src/config/middleware/middleware.ts": [
+        "/home/vadym/Project/privat-bank-currency-api-main/node_modules/@types/express/index.d.ts"
+      ],
+      "/home/vadym/Project/privat-bank-currency-api-main/src/config/server/server.ts": [
+        "/home/vadym/Project/privat-bank-currency-api-main/node_modules/@types/express/index.d.ts"
+      ],
+      "/home/vadym/Project/privat-bank-currency-api-main/src/components/Auth/service.ts": [
+        "/home/vadym/Project/privat-bank-currency-api-main/src/components/Auth/interfaces/interface.ts"
+      ],
+      "/home/vadym/Project/privat-bank-currency-api-main/src/components/User/interfaces/interface.ts": [
+        "/home/vadym/Project/privat-bank-currency-api-main/src/components/User/models/model.ts"
+      ],
+      "/home/vadym/Project/privat-bank-currency-api-main/src/components/User/validations/validation.ts": [
+        "/home/vadym/Project/privat-bank-currency-api-main/src/components/User/models/model.ts",
+        "/home/vadym/Project/privat-bank-currency-api-main/node_modules/@types/joi/index.d.ts",
+        "/home/vadym/Project/privat-bank-currency-api-main/src/components/validation.ts"
+      ],
+      "/home/vadym/Project/privat-bank-currency-api-main/src/components/User/service.ts": [
+        "/home/vadym/Project/privat-bank-currency-api-main/src/components/User/interfaces/interface.ts"
+      ],
+      "/home/vadym/Project/privat-bank-currency-api-main/src/components/Auth/index.ts": [
+        "/home/vadym/Project/privat-bank-currency-api-main/node_modules/@types/express/index.d.ts"
+      ],
+      "/home/vadym/Project/privat-bank-currency-api-main/src/components/Auth/validations/filter.ts": [
+        "/home/vadym/Project/privat-bank-currency-api-main/node_modules/@types/express/index.d.ts"
+      ],
+      "/home/vadym/Project/privat-bank-currency-api-main/src/guards/interfaces/interface.ts": [
+        "/home/vadym/Project/privat-bank-currency-api-main/node_modules/@types/express/index.d.ts",
+        "/home/vadym/Project/privat-bank-currency-api-main/src/components/User/models/model.ts"
+      ],
+      "/home/vadym/Project/privat-bank-currency-api-main/src/guards/jwtAuth.ts": [
+        "/home/vadym/Project/privat-bank-currency-api-main/src/guards/interfaces/interface.ts",
+        "/home/vadym/Project/privat-bank-currency-api-main/node_modules/@types/express/index.d.ts"
+      ],
+      "/home/vadym/Project/privat-bank-currency-api-main/src/components/Auth/router.ts": [
+        "/home/vadym/Project/privat-bank-currency-api-main/node_modules/@types/express/index.d.ts"
+      ],
+      "/home/vadym/Project/privat-bank-currency-api-main/src/components/Latency/index.ts": [
+        "/home/vadym/Project/privat-bank-currency-api-main/node_modules/@types/express/index.d.ts"
+      ],
+      "/home/vadym/Project/privat-bank-currency-api-main/src/components/Latency/validations/filter.ts": [
+        "/home/vadym/Project/privat-bank-currency-api-main/node_modules/@types/express/index.d.ts"
+      ],
+      "/home/vadym/Project/privat-bank-currency-api-main/src/components/Latency/router.ts": [
+        "/home/vadym/Project/privat-bank-currency-api-main/node_modules/@types/express/index.d.ts"
+      ],
+      "/home/vadym/Project/privat-bank-currency-api-main/src/components/User/index.ts": [
+        "/home/vadym/Project/privat-bank-currency-api-main/node_modules/@types/express/index.d.ts"
+      ],
+      "/home/vadym/Project/privat-bank-currency-api-main/src/components/User/router.ts": [
+        "/home/vadym/Project/privat-bank-currency-api-main/node_modules/@types/express/index.d.ts"
+      ],
+      "/home/vadym/Project/privat-bank-currency-api-main/src/components/router.ts": [
+        "/home/vadym/Project/privat-bank-currency-api-main/node_modules/@types/express/index.d.ts"
+      ],
+      "/home/vadym/Project/privat-bank-currency-api-main/node_modules/@types/dotenv/index.d.ts": [
+        "/home/vadym/Project/privat-bank-currency-api-main/node_modules/@types/node/index.d.ts"
+      ],
+      "/home/vadym/Project/privat-bank-currency-api-main/node_modules/@types/mongoose/index.d.ts": [
+        "/home/vadym/Project/privat-bank-currency-api-main/node_modules/@types/node/index.d.ts",
+        "/home/vadym/Project/privat-bank-currency-api-main/node_modules/@types/mongodb/index.d.ts",
+        "/home/vadym/Project/privat-bank-currency-api-main/node_modules/@types/mongoose/index.d.ts"
+      ]
+    },
+    "semanticDiagnosticsPerFile": [
+      "/home/vadym/Project/privat-bank-currency-api-main/node_modules/typescript/lib/lib.es5.d.ts",
+      "/home/vadym/Project/privat-bank-currency-api-main/node_modules/typescript/lib/lib.es2015.d.ts",
+      "/home/vadym/Project/privat-bank-currency-api-main/node_modules/typescript/lib/lib.es2016.d.ts",
+      "/home/vadym/Project/privat-bank-currency-api-main/node_modules/typescript/lib/lib.es2017.d.ts",
+      "/home/vadym/Project/privat-bank-currency-api-main/node_modules/typescript/lib/lib.dom.d.ts",
+      "/home/vadym/Project/privat-bank-currency-api-main/node_modules/typescript/lib/lib.dom.iterable.d.ts",
+      "/home/vadym/Project/privat-bank-currency-api-main/node_modules/typescript/lib/lib.webworker.importscripts.d.ts",
+      "/home/vadym/Project/privat-bank-currency-api-main/node_modules/typescript/lib/lib.scripthost.d.ts",
+      "/home/vadym/Project/privat-bank-currency-api-main/node_modules/typescript/lib/lib.es2015.core.d.ts",
+      "/home/vadym/Project/privat-bank-currency-api-main/node_modules/typescript/lib/lib.es2015.collection.d.ts",
+      "/home/vadym/Project/privat-bank-currency-api-main/node_modules/typescript/lib/lib.es2015.generator.d.ts",
+      "/home/vadym/Project/privat-bank-currency-api-main/node_modules/typescript/lib/lib.es2015.iterable.d.ts",
+      "/home/vadym/Project/privat-bank-currency-api-main/node_modules/typescript/lib/lib.es2015.promise.d.ts",
+      "/home/vadym/Project/privat-bank-currency-api-main/node_modules/typescript/lib/lib.es2015.proxy.d.ts",
+      "/home/vadym/Project/privat-bank-currency-api-main/node_modules/typescript/lib/lib.es2015.reflect.d.ts",
+      "/home/vadym/Project/privat-bank-currency-api-main/node_modules/typescript/lib/lib.es2015.symbol.d.ts",
+      "/home/vadym/Project/privat-bank-currency-api-main/node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts",
+      "/home/vadym/Project/privat-bank-currency-api-main/node_modules/typescript/lib/lib.es2016.array.include.d.ts",
+      "/home/vadym/Project/privat-bank-currency-api-main/node_modules/typescript/lib/lib.es2017.object.d.ts",
+      "/home/vadym/Project/privat-bank-currency-api-main/node_modules/typescript/lib/lib.es2017.sharedmemory.d.ts",
+      "/home/vadym/Project/privat-bank-currency-api-main/node_modules/typescript/lib/lib.es2017.string.d.ts",
+      "/home/vadym/Project/privat-bank-currency-api-main/node_modules/typescript/lib/lib.es2017.intl.d.ts",
+      "/home/vadym/Project/privat-bank-currency-api-main/node_modules/typescript/lib/lib.es2017.typedarrays.d.ts",
+      "/home/vadym/Project/privat-bank-currency-api-main/node_modules/typescript/lib/lib.es2018.asynciterable.d.ts",
+      "/home/vadym/Project/privat-bank-currency-api-main/node_modules/typescript/lib/lib.es2017.full.d.ts",
+      "/home/vadym/Project/privat-bank-currency-api-main/node_modules/@types/node/inspector.d.ts",
+      "/home/vadym/Project/privat-bank-currency-api-main/node_modules/@types/node/index.d.ts",
+      "/home/vadym/Project/privat-bank-currency-api-main/node_modules/@types/range-parser/index.d.ts",
+      "/home/vadym/Project/privat-bank-currency-api-main/node_modules/@types/qs/index.d.ts",
+      "/home/vadym/Project/privat-bank-currency-api-main/node_modules/@types/express-serve-static-core/index.d.ts",
+      "/home/vadym/Project/privat-bank-currency-api-main/node_modules/@types/mime/index.d.ts",
+      "/home/vadym/Project/privat-bank-currency-api-main/node_modules/@types/serve-static/index.d.ts",
+      "/home/vadym/Project/privat-bank-currency-api-main/node_modules/@types/body-parser/index.d.ts",
+      "/home/vadym/Project/privat-bank-currency-api-main/node_modules/@types/express/index.d.ts",
+      "/home/vadym/Project/privat-bank-currency-api-main/node_modules/@types/joi/index.d.ts",
+      "/home/vadym/Project/privat-bank-currency-api-main/node_modules/@types/bson/index.d.ts",
+      "/home/vadym/Project/privat-bank-currency-api-main/node_modules/@types/mongodb/index.d.ts",
+      "/home/vadym/Project/privat-bank-currency-api-main/node_modules/mongoose/index.d.ts",
+      "/home/vadym/Project/privat-bank-currency-api-main/src/components/validation.ts",
+      "/home/vadym/Project/privat-bank-currency-api-main/node_modules/@types/bcrypt/index.d.ts",
+      "/home/vadym/Project/privat-bank-currency-api-main/node_modules/dotenv/types/index.d.ts",
+      "/home/vadym/Project/privat-bank-currency-api-main/src/config/env/interfaces/interface.ts",
+      "/home/vadym/Project/privat-bank-currency-api-main/src/config/env/index.ts",
+      "/home/vadym/Project/privat-bank-currency-api-main/src/config/connection/interfaces/interface.ts",
+      "/home/vadym/Project/privat-bank-currency-api-main/src/config/connection/connection.ts",
+      "/home/vadym/Project/privat-bank-currency-api-main/src/components/User/models/model.ts",
+      "/home/vadym/Project/privat-bank-currency-api-main/src/components/Auth/validations/validation.ts",
+      "/home/vadym/Project/privat-bank-currency-api-main/src/components/Auth/interfaces/interface.ts",
+      "/home/vadym/Project/privat-bank-currency-api-main/node_modules/@types/jsonwebtoken/index.d.ts",
+      "/home/vadym/Project/privat-bank-currency-api-main/node_modules/@types/compression/index.d.ts",
+      "/home/vadym/Project/privat-bank-currency-api-main/node_modules/@types/cookie-parser/index.d.ts",
+      "/home/vadym/Project/privat-bank-currency-api-main/node_modules/@types/cors/index.d.ts",
+      "/home/vadym/Project/privat-bank-currency-api-main/node_modules/@types/helmet/index.d.ts",
+      "/home/vadym/Project/privat-bank-currency-api-main/src/config/error/index.ts",
+      "/home/vadym/Project/privat-bank-currency-api-main/src/config/error/sendHttpError.ts",
+      "/home/vadym/Project/privat-bank-currency-api-main/src/config/middleware/interfaces/interface.ts",
+      "/home/vadym/Project/privat-bank-currency-api-main/src/config/middleware/middleware.ts",
+      "/home/vadym/Project/privat-bank-currency-api-main/src/config/server/server.ts",
+      "/home/vadym/Project/privat-bank-currency-api-main/src/components/Auth/constants.ts",
+      "/home/vadym/Project/privat-bank-currency-api-main/src/components/Auth/service.ts",
+      "/home/vadym/Project/privat-bank-currency-api-main/src/components/User/interfaces/interface.ts",
+      "/home/vadym/Project/privat-bank-currency-api-main/src/components/User/validations/validation.ts",
+      "/home/vadym/Project/privat-bank-currency-api-main/src/components/User/service.ts",
+      "/home/vadym/Project/privat-bank-currency-api-main/src/components/Auth/index.ts",
+      "/home/vadym/Project/privat-bank-currency-api-main/src/components/Auth/validations/filter.ts",
+      "/home/vadym/Project/privat-bank-currency-api-main/node_modules/@types/ping/index.d.ts",
+      "/home/vadym/Project/privat-bank-currency-api-main/src/components/Latency/constants.ts",
+      "/home/vadym/Project/privat-bank-currency-api-main/src/components/Latency/index.ts",
+      "/home/vadym/Project/privat-bank-currency-api-main/src/components/Latency/validations/filter.ts",
+      "/home/vadym/Project/privat-bank-currency-api-main/src/components/User/index.ts",
+      "/home/vadym/Project/privat-bank-currency-api-main/node_modules/@types/debug/index.d.ts",
+      "/home/vadym/Project/privat-bank-currency-api-main/src/config/server/serverHandlers.ts",
+      "/home/vadym/Project/privat-bank-currency-api-main/src/config/server/index.ts",
+      "/home/vadym/Project/privat-bank-currency-api-main/node_modules/@types/dotenv/index.d.ts",
+      "/home/vadym/Project/privat-bank-currency-api-main/node_modules/@types/mongoose/index.d.ts",
+      "/home/vadym/Project/privat-bank-currency-api-main/src/guards/interfaces/interface.ts",
+      "/home/vadym/Project/privat-bank-currency-api-main/src/guards/jwtAuth.ts",
+      "/home/vadym/Project/privat-bank-currency-api-main/src/components/Auth/router.ts",
+      "/home/vadym/Project/privat-bank-currency-api-main/src/components/Latency/router.ts",
+      "/home/vadym/Project/privat-bank-currency-api-main/src/components/User/router.ts",
+      "/home/vadym/Project/privat-bank-currency-api-main/src/components/router.ts"
+    ]
+  },
+  "version": "3.4.3"
+}

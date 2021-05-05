@@ -1,7 +1,7 @@
-import * as Joi from 'joi';
-import Validation from '../../validation';
-import { IUserModel } from '../models/model';
-import authConstants from '../../Auth/constants';
+import Joi from 'joi';
+import Validation from '@components/validation';
+import authConstants from '@components/Auth/constants';
+import { IUserModel } from '@components/User/models/model';
 
 class UserValidation extends Validation {
 
@@ -11,7 +11,8 @@ class UserValidation extends Validation {
 
     createUser(
         params: IUserModel
-    ): Joi.ValidationResult < IUserModel > {
+        // @ts-ignore
+    ): Joi.ValidationResult < IUserModel> {
         if (params.id_type === authConstants.id_type.email) {
             const schema: Joi.Schema = Joi.object().keys({
                 password: Joi.string().required(),

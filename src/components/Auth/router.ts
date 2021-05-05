@@ -1,14 +1,14 @@
-import * as AuthComponent from './.';
+import { signup, login, logout } from './index';
 import { Router } from 'express';
 import exceptionsAuthFilter from './validations/filter';
-import * as jwtConfig from '../../config/guards/jwtAuth';
+import jwtAuth from '@guards/jwtAuth';
 
 const router: Router = Router();
 
-router.post('/signup', exceptionsAuthFilter(AuthComponent.signup));
+router.post('/signup', exceptionsAuthFilter(signup));
 
-router.post('/login', exceptionsAuthFilter(AuthComponent.login));
-
-router.get('/logout', jwtConfig.isAuthenticated, exceptionsAuthFilter(AuthComponent.logout));
+router.post('/login', exceptionsAuthFilter(login));
+// @ts-ignore
+router.get('/logout', jwtAuth, exceptionsAuthFilter(logout));
 
 export default router;

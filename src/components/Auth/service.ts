@@ -1,9 +1,9 @@
-import * as Joi from 'joi';
+import Joi from 'joi';
 import AuthValidation from './validations/validation';
-import UserModel, { IUserModel } from '../User/models/model';
+import UserModel, { IUserModel } from '@components/User/models/model';
 import { IAuthService } from './interfaces/interface';
-import * as jwt from 'jsonwebtoken';
-import app from '../../config/server/server';
+import jwt from 'jsonwebtoken';
+import app from '@config/server/server';
 import authConstants from './constants';
 
 const authService: IAuthService = {
@@ -22,7 +22,7 @@ const authService: IAuthService = {
 
             if (validate.error) { throw new Error(validate.error.message); }
 
-            const user: IUserModel = await UserModel.findOne({ id: body.id });
+            const user: IUserModel | null = await UserModel.findOne({ id: body.id });
             if (user) {
                 user.access_token = await this.getTokens(user.id);
                 await UserModel.updateOne({ id: body.id }, { $set: user }).exec();
@@ -37,7 +37,8 @@ const authService: IAuthService = {
         }
     },
 
-    async logout(typeLogout: string, token: string): Promise < string > {
+    //ts-ignore
+    async logout(typeLogout: string, token: string): Promise < string | undefined > {
         try {
             if (typeLogout === 'false') {
                 const user: any = await UserModel.findOne({ access_token: token });

@@ -1,14 +1,14 @@
-import * as Joi from 'joi';
+import Joi from 'joi';
 import { IUserService } from './interfaces/interface';
 import UserModel, { IUserModel } from './models/model';
 import UserValidation from './validations/validation';
-import authService from '../Auth/service';
+import authService from '@components/Auth/service';
 
 const userService: IUserService = {
 
     async usersInfo(token: string): Promise < IUserModel > {
         try {
-            const user: IUserModel = await UserModel.findOne({ access_token: token });
+            const user: IUserModel | null = await UserModel.findOne({ access_token: token });
             if (user) { return user; }
 
             throw new Error('Token is unavailable');
@@ -30,13 +30,14 @@ const userService: IUserService = {
                 access_token: await authService.getTokens(body.id),
                 password: body.password
             });
-            const query: IUserModel = await UserModel.findOne({ id: body.id });
+            const query: IUserModel | null = await UserModel.findOne({ id: body.id });
 
             if (query) { throw new Error('This id already exists'); }
 
             const saved: IUserModel = await user.save();
 
             return saved;
+
         } catch (error) {
             throw new Error(error);
         }

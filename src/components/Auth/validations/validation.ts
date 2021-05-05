@@ -1,6 +1,6 @@
-import * as Joi from 'joi';
-import Validation from '../../validation';
-import { IUserModel } from '../../User/models/model';
+import Joi from 'joi';
+import Validation from '@components/validation';
+import { IUserModel } from '@components/User/models/model';
 
 class AuthValidation extends Validation {
 

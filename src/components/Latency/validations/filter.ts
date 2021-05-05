@@ -1,5 +1,5 @@
 import { NextFunction, Request, Response } from 'express';
-import HttpError from '../../../config/error';
+import HttpError from '@config/error';
 
 export default function exceptionsLatencyFilter(targetMethod: (req: Request, res: Response, next: NextFunction) => void):
     (req: Request, res: Response, next: NextFunction) => Promise< void > {

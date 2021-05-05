@@ -1,9 +1,9 @@
-import * as dotenv from 'dotenv';
+import dotenv from 'dotenv';
 import IDBConfig from './interfaces/interface';
 
 dotenv.config();
 
-const NODE_ENV: string = process.env.NODE_ENV;
+const NODE_ENV: string = process.env.NODE_ENV || 'development';
 
 const development: IDBConfig = {
     port: process.env.PORT,

@@ -1,12 +1,13 @@
-import * as express from 'express';
-import * as Middleware from '../middleware/middleware';
-import * as Routes from '../../components/router';
+import express from 'express';
+import 'module-alias/register';
+import Middleware from '@config/middleware/middleware';
+import Routes from '@components/router';
 
 const app: express.Application = express();
 
 Middleware.configure(app);
 
-Routes.init(app);
+Routes(app);
 
 Middleware.initErrorHandler(app);
 

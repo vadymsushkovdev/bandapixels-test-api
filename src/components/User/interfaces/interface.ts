@@ -1,4 +1,4 @@
-import { IUserModel } from '../models/model';
+import { IUserModel } from '@components/User/models/model';
 
 export interface IUserService {
 
