@@ -1,12 +1,10 @@
 import Joi from 'joi';
-import { IUserService } from './interfaces/interface';
 import UserModel, { IUserModel } from './models/model';
 import UserValidation from './validations/validation';
-import authService from '@components/Auth/service';
 
-const userService: IUserService = {
+class UserService {
 
-    async usersInfo(token: string): Promise < IUserModel > {
+    public async usersInfo(token: string): Promise < IUserModel > {
         try {
             const user: IUserModel | null = await UserModel.findOne({ access_token: token });
             if (user) { return user; }
@@ -16,9 +14,9 @@ const userService: IUserService = {
         } catch (error) {
             throw new Error(error);
         }
-    },
+    }
 
-    async createUser(body: IUserModel): Promise < IUserModel > {
+    public async createUser(body: IUserModel): Promise < IUserModel > {
         try {
             const validate: Joi.ValidationResult < IUserModel > = UserValidation.createUser(body);
 
@@ -27,7 +25,7 @@ const userService: IUserService = {
             const user: IUserModel = new UserModel({
                 id: body.id,
                 id_type: body.id_type,
-                access_token: await authService.getTokens(body.id),
+                access_token: ' ',
                 password: body.password
             });
             const query: IUserModel | null = await UserModel.findOne({ id: body.id });
@@ -44,4 +42,4 @@ const userService: IUserService = {
     }
 };
 
-export default userService;
+export default new UserService();

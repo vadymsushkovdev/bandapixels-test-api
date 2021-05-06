@@ -9,6 +9,7 @@ router.post('/signup', exceptionsAuthFilter(signup));
 
 router.post('/login', exceptionsAuthFilter(login));
 
+// @ts-ignore
 router.get('/logout', jwtAuth, exceptionsAuthFilter(logout));
 
 export default router;

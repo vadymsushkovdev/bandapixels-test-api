@@ -1,7 +1,6 @@
 import http from 'http';
 import { onError, onListening } from './serverHandlers';
 import server from './server';
-import 'module-alias/register';
 
 
 const Server: http.Server = http.createServer(server);
